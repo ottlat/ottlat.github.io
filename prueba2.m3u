@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1,cinemax
+https://tv.vermax.workers.dev/cinemax.m3u8
+#EXTINF:-1,actionmax
+https://tv.vermax.workers.dev/actionmax.m3u8
