@@ -3,3 +3,5 @@
 https://tv.vermax.workers.dev/cinemax.m3u8
 #EXTINF:-1,actionmax
 https://tv.vermax.workers.dev/actionmax.m3u8
+#EXTINF:-1,Cinemax ActionMax
+https://live.vermax.workers.dev/cinemax-actionmax.m3u8
