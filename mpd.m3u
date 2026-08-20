@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://www.open-epg.com/generate/rU5mn2F5pm.xml"
+#EXTM3U
 
 #EXTINF:-1 tvg-id="DSPORTS HD.ve" tvg-logo="https://i.ibb.co/WWDdrBV5/DSPORTS.png" group-title="Paramount+",DSPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -107,6 +107,11 @@ https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/69onjp
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=72072cc450719f120c9002b1bae31401:5777198adbd14c0416aa760249b91380
 https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/lv91k1unfv/out/v1/ab233dee5c6a40279e173e3497e36d21/cenc.mpd
+
+#EXTINF:-1 tvg-id="TELEHIT MUSICA PLUS.pe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/Telehit_M%C3%BAsica_Plus_logo.png" group-title="Amazon",Telehit Música Plus
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=0ab26e2d1adc4e0b9e25b331d95bf1d1:a9c6763ccdb714dadd00d60903a4aa17
+https://abl3le6aaaaaaaammmsp3fgo4agzb.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/f7jpwtuowu/out/v1/49b2bba643474563ac665c307e5e5306/cenc.mpd
 
 #EXTINF:-1 tvg-id="BANAMAX" tvg-logo="https://images.seeklogo.com/logo-png/39/2/bandamax-logo-png_seeklogo-399622.png" group-title="Amazon",BANDAMAX
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
