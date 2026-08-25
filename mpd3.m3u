@@ -1,321 +1,981 @@
-#EXTM3U
+#EXTM3U https://ett.re/flowtv,https://www.open-epg.com/files/argentina4.xml.gz,https://www.open-epg.com/files/uruguay2.xml.gz"
 
-#EXTINF:-1 tvg-id="LAS ESTRELLA -2 HORAS" tvg-logo="" group-title="izzi go",LAS ESTRELLA -2 HORAS
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=820ee7b6e7e489c285a63a9a39249a31:3bdc524168044491d6f2e51b270f4aa1
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/12/out/u/dash/LAS-ESTRELLAS-2HRS-HD/default.mpd
+AIRE Y NOTICIAS
+#EXTINF:-1 tvg-id="TVPublica.ar", TV Publica
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/TVPublica/live_dash_cld/TVPublica.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=6b17538810f1dd4485f174dcc204872c:3d5b973772433ce07c8999aa659ea48c
+ 
+#EXTINF:-1 tvg-id="AmericaTV.ar" , America 
+#EXTVLCOPT:user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/America/live_dash_cld/America.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=b5651806b42f087c58332b052de727c5:11901b35cc3e5aa73619f64d02c38a0f 
+#EXTINF:-1 tvg-id="ElTrece.ar", Canal 13
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/Canal13/live_dash_cld/Canal13.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=e7b05c7a737b7f0a5d571b91deaa2697:4079ac205b544b1c294ee1568906ff58 
 
-#EXTINF:-1 tvg-id="AZTECA 1" tvg-logo="" group-title="izzi go",AZTECA 1
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=158b196625b3fa3a6cbd45d081d28995:b955044f81ed40faec97bee0d7a20aea
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/14/out/u/dash/AZTECA-1-HD/default.mpd
+#EXTINF:-1 tvg-id="ElNueve.ar" , Canal 9 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/Canal9/live_dash_cld/Canal9.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=7c1f50e3f51216bdd1efcc99d3a27217:3441c930277d824402aafee446ba8f90 
 
-#EXTINF:-1 tvg-id="LAS ESTRELLAS MEXICO" tvg-logo="" group-title="izzi go",LAS ESTRELLAS MEXICO
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=62cc24eaedef1ab322a4d52fd6bf29ad:3f80b04b3e2bf3d8543956882da9dd00
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/11/out/u/dash/CANAL-2-HD/default.mpd
+#EXTINF:-1 , Telefe
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/Telefe/live_dash_cld/Telefe.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0
+#KODIPROP:inputstream.adaptive.license_key=9bb54fccffaddd38916e85c08de98cc9:d06f509c418eb6f1b2fc2b766445328b 
+ 
+#EXTINF:-1 , TN 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/TN/live_dash_cld/TN.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey 
+#KODIPROP:inputstream.adaptive.license_key=4b4ebe3c68c4c95c7639096e76c233d0:0c48cd5e3298b762a099acdc05a5182a 
 
-#EXTINF:-1 tvg-id="FORO" tvg-logo="" group-title="izzi go",FORO
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ea39b9575f51b840a58bda829f20f38d:9c200a2b120d45e60af506be1d7ad932
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/12/out/u/dash/FORO-TV-HD/default.mpd
+#EXTINF:-1 , Cnn Español
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/CnnEspanol/live_dash_cld/CnnEspanol.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey 
+#KODIPROP:inputstream.adaptive.license_key=718f07e2beccf40cc207365ea8a70ef6:672d59d617c4a697025be0fb8d382cc0 
 
-#EXTINF:-1 tvg-id="CANAL 5" tvg-logo="" group-title="izzi go",CANAL 5
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a87359e03d54b17632a22b2da2a1f6a0:922a48fbf69a2721870e2c4ae8ef7d5f
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/12/out/u/dash/CANAL-5-HD/default.mpd
+#EXTINF:-1 , Cnn Internacional 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/CnnINT/live_dash_cld/CnnINT.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey 
+#KODIPROP:inputstream.adaptive.license_key=16c07e6ffdddf95b34e666f9fb745eb4:adbd7d96395740ad5a389cba976e31d8 
 
-#EXTINF:-1 tvg-id="AZTECA 7" tvg-logo="" group-title="izzi go",AZTECA 7
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=c15a10921bed75a3ec5385e0ecdb6499:4e44df62547a1544a4623418918658d0
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/14/out/u/dash/AZTECA-7-HD/default.mpd
+#EXTINF:-1 , C5N
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/C5N/live_dash_cld/C5N.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey 
+#KODIPROP:inputstream.adaptive.license_key=bd1767fe3554f1285222b5610105c0e9:839d5b1eec7eb70d68c1e1531fc0d6d4 
 
-#EXTINF:-1 tvg-id="CANAL 9" tvg-logo="" group-title="izzi go",CANAL 9
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0bb910a4217a1af19b803e7f120796f9:8d3d83fadfc769674b9c7102109fc466
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/11/out/u/dash/CANAL-9-HD/default.mpd
+#EXTINF:-1 , Argentina 12
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/bpk-tv/Argentina12/default/index.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey 
+#KODIPROP:inputstream.adaptive.license_key=61635507689b4c74568928cc0f5d82d9:34f254be5f3d6a8ab44c28b4cb2e5a4a 
 
-#EXTINF:-1 tvg-id="SKY ONE" tvg-logo="" group-title="izzi go",SKY ONE
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=96f177548046a9f56bbb39a900a82ddd:96aa836072fd84c9a8e6219652330272
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/11/out/u/dash/SKY-ONE-HD/default.mpd
+#EXTINF:-1 tvg-id="A24.ar.uy" , A24
+#KODIPROP:inputstream.adaptive.license_key=ed936cd5cb59eeee83addafb446662a4:dd4b7aeb2bc000468883296e7ae4a09b
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/A24/live_dash_cld/A24.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0
 
-#EXTINF:-1 tvg-id="TUDN" tvg-logo="" group-title="izzi go",TUDN
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=2722647f77b44824c432a3c4555830a2:1734befb82f4b438bd84195f6c212e7b
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/11/out/u/dash/TUDN-HD/default.mpd
 
-#EXTINF:-1 tvg-id="REAL MADRID TV" tvg-logo="" group-title="izzi go",REAL MADRID TV
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=77e93f69c2d4c23e2cf8dc9e892f4ac7:71a786d7774d6df4487494145db485a4
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/14/out/u/dash/REAL-MADRID-HD/default.mpd
+#EXTINF:-1 , Canal 26 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/Canal26/live_dash_cld/Canal26.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey 
+#KODIPROP:inputstream.adaptive.license_key=b35aecc554b859a97cf11b892731af1f:3a5da1a7c6a5cc6e488bdbbbf09132ff 
 
-#EXTINF:-1 tvg-id="FOX SPORTS MEXICO" tvg-logo="" group-title="izzi go",FOX SPORTS MEXICO
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=T77e93f69c2d4c23e2cf8dc9e892f4ac7:71a786d7774d6df4487494145db485a4
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/11/out/u/dash/FOX-SPORTS-HD/default.mpd
+#EXTINF:-1 , Cronica TV 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/Cronica/live_dash_cld/Cronica.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0 
+194f0682180e147f7928078dcc78a019:ddfc08545e74a6bd8870f1189cd1bec0
+#EXTINF:-1 , Multivision
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/bpk-tv/Multivision/default/index.mpd 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey 
+#KODIPROP:inputstream.adaptive.license_key=8f9261beee045d06c325c380b9275e15:89976f64ccde3509e15e38c9196a529f 
 
-#EXTINF:-1 tvg-id="FOX SPORTS 2 MEXICO" tvg-logo="" group-title="izzi go",FOX SPORTS 2 MEXICO
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=fed9589fc901f76588cdcba4dd1673b9:6863d9f5ab4788a8f6b47f9fa7c5e8a5
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/14/out/u/dash/FOX-SPORTS-2-HD/default.mpd
+#EXTINF:-1 , T5 Satelital
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/bpk-tv/T5Satelital/default/index.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey 
+#KODIPROP:inputstream.adaptive.license_key=0c7cb1ff69ab931bc2348f2e00381544:e89139fc667b4e306f1accb3db40a584
 
-#EXTINF:-1 tvg-id="FOX SPORTS 3 MEXICO" tvg-logo="" group-title="izzi go",FOX SPORTS 3 MEXICO
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=12fefc830185e5529c19462d0bc3bbb2:ce6635992edeb362e25a8e0ac2f29b21
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/11/out/u/dash/FOX-SPORTS-3-HD/default.mpd
+#EXTINF:-1 , NET TV
+https://cdn.sensa.com.ar/live/eds/NETTV/live_dash_cld/NETTV.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey 
+#KODIPROP:inputstream.adaptive.license_key=c3db691c7e4520b7b2dc822ab905545a:ee2a1ebe6fcc2ef3b01943cdd9256cc6 
 
-#EXTINF:-1 tvg-id="ESPN 2" tvg-logo="" group-title="izzi go",ESPN 2
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=15d9d4703da265cffb80784f92c9f7b2:499b056f81abbb41015bfce6ab812d0e
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/11/out/u/dash/ESPN-2-HD/default.mpd
+#EXTINF:-1 , Canal E Ahora Perfil+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/bpk-tv/CanalE/default/index.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey 
+#KODIPROP:inputstream.adaptive.license_key=1894229072ccac2d0f6a101d618d039d:9a7ea848df202bf22ac51bda4482a4c2 
 
-#EXTINF:-1 tvg-id="PX SPORTS" tvg-logo="" group-title="izzi go",PX SPORTS
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=8c53466401bf1c02903470cf41d01b6e:90898b3079182c414ecc104ff53dc9b7
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/14/out/u/dash/PX-SPORTS-HD/default.mpd
+#EXTINF:-1 , Ex Bravo TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) 
+Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/bpk-tv/BravoTV/default/index.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0
+1d7d1609477d0b0d51a5b7d1539e65eb:90b61b3fa577eab7b53ef6f1caeb82bf
+#EXTINF:-1 , El Destape
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/bpk-tv/ElDestape/default/index.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey 
+#KODIPROP:inputstream.adaptive.license_key=af0566c50e733c311bdfa6736a95ce50:e4dfd12993097b3c35ad47562d61b4ce 
 
-#EXTINF:-1 tvg-id="ESPN" tvg-logo="" group-title="izzi go",ESPN
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4960f2aaf83f68144efc0d50422939d6:446b765a46c00d00eeac6d50c87ca678
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/11/out/u/dash/ESPN-HD/default.mpd
+#EXTINF:-1 , La Nacion Mas
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/LaNacionMas/live_dash_cld/LaNacionMas.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0
+a002010b506854599dffbb8b9048ec7c:160eedf85229da919a7c5eec4fbef809 
 
-#EXTINF:-1 tvg-id="ESPN 3" tvg-logo="" group-title="izzi go",ESPN 3
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3816a21af2bee4c815f1cb06f469f014:ae0ce866a21682c00eadf998e6c14003
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/11/out/u/dash/ESPN-3-HD/default.mpd
+#EXTINF:-1 , Ciudad Magazine
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/CiudadMagazine/live_dash_cld/CiudadMagazine.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0
+014771c4a91db80e96f038ec0acfc304:e37fa696265923a6082de157662aab73 
 
-#EXTINF:-1 tvg-id="GOLF CHANNEL" tvg-logo="" group-title="izzi go",GOLF CHANNEL
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=bd45f6a37a3887044bac88a63e55b70e:2dff34fba01dd53d0a37dc913bb9ba51
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/11/out/u/dash/GOLF-CHANNEL-HD/default.mpd
+#EXTINF:-1 , Encuentro
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/Encuentro/live_dash_cld/Encuentro.mpd?|referer=https://player.sensa.com.ar/&webtoken=1.0
+9e6bc6cd9b600238f89d75ffb02cb852:f102949aa16d1a741d0fa30dc60f9cbd 
+DEPORTES 
+#EXTINF:-1 , America Sports
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) 
+Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/AmericaSports/live_dash_cld/AmericaSports.mpd|referer=https://player.sensa.com.ar/&webtoken=1.0
+f9a70c294ea75346b991a61c55ff1d8f:7012eb6cd752998ee5cfbe68517491f5 
+#EXTINF:-1 , Depor tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) 
+Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/Deportv/live_dash_cld/Deportv.mpd|referer=https://player.sensa.com.ar/&webtoken=1.0
+1904c4d846a99e940903174bdbab74f0:08a4ca972cd037a1fe042515c310bfe1 
+#EXTINF:-1 , Golf TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) 
+Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/GolfTV/live_dash_cld/GolfTV.mpd 
+be71d8107de961319fc6a47d9f1c79ad:02071a1c9846318c60480d4086be8e9b 
+#EXTINF:-1 , TYC Sports
+https://cdn.sensa.com.ar/live/eds/TYCSports/live_dash_cld/TYCSports.mpd|referer=https://player.sensa.com.ar/&webtoken=1.0
+53d0cf6c1d49c16f5180f86e1870b00f:7eb6743b5f44b52ba27c88229c8c7ae2 
+#EXTINF:-1 , ESPN
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) 
+Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/ESPN/live_dash_cld/ESPN.mpd 
+6d243ebd7a57bea4b4b052ae13f4c051:5c1925879de873d43b7c25925902539b
+#EXTINF:-1 , ESPN 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) 
+Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/ESPN2/live_dash_cld/ESPN2.mpd 
+6a8bd6496d2444301c9d4d0feca9d75b:3fd1967701ba2897729187b60094c158 
+#EXTINF:-1 , ESPN 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) 
+Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/ESPN3/live_dash_cld/ESPN3.mpd 
+8836252059b793a79173838dc1186ff1:aa16f90e51ce5652dab93834e434caa8 
+#EXTINF:-1 , ESPN 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) 
+Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/ESPN4/live_dash_cld/ESPN4.mpd 
+034653d3413f23e87249d1fb7e68359a:a0d6b849f17c430e9cc02d07739a4e4a 
+#EXTINF:-1 , Fox Sports
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) 
+Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/FoxSports1/live_dash_cld/FoxSports1.mpd 
+1a61b644fdc68568b5be3e2629041564:a1672cdfb5de64707151128f811da667 
+#EXTINF:-1 , Fox Sports 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) 
+Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/FoxSports2/live_dash_cld/FoxSports2.mpd 
+6ec1c5620f5c1553d3238988714e71b2:b8917b12e851dfc7bb8a3b832348b3be 
+#EXTINF:-1 , Fox Sports 3 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) 
+Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/FoxSports3/live_dash_cld/FoxSports3.mpd|referer=https://player.sensa.com.ar/&webtoken=1.0 
+c7f87e51c56a87a59cab7ec98fd062db:c3f0d7d067e385900a0e6d4c8e406a68 
+#EXTINF:-1 , El Garage
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) 
+Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/ElGarage/live_dash_cld/ElGarage.mpd|referer=https://player.sensa.com.ar/&webtoken=1.0 
+ad1be5752980085910010adb9d72532d:8acfaacb600b382bfe18962964355ce6 
+#EXTINF:-1 , Discovery Turbo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/DiscoveryTurbo/live_dash_cld/DiscoveryTurbo.mpd 
+6902d50ec036d30146b12b927f4363d4:d40dc5eb6e0f8fbd58ab7dd6b91143b5 
+#EXTINF:-1 , PX Sports
+https://cdn.sensa.com.ar/live/sta01/PXSports/live_dash_cld/PXSports.mpd e070a7426b8cb1cab5f63996b7bd7669:1c140e0715b26c7232942ab87d232964 
+#EXTINF:-1 , Claro Sports
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/ClaroSports/live_dash_cld/ClaroSports.mpd|referer=https://player.sensa.com.ar/&webtoken=1.0 
+04983282c2fa819a08fa03a13fe4fdbe:4780a24340ea957c4a27b257e2b6ec4c 
+#EXTINF:-1 , DSports2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) 
+Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/DSports2/live_dash_cld/DSports2.mpd|referer=https://player.sensa.com.ar/&webtoken=1.0 
+bd89344a668ae890ff443135b72b9dd6:b919645917c4b94994f906943f25a6d8 
+#EXTINF:-1 , DSports
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/DSports/live_dash_cld/DSports.mpd|referer=https://player.sensa.com.ar/&webtoken=1.0 
+77c4d4bad5d6e53f64e32a7bae117aad:275dfb5b6f13a407d1528d465a85534c 
+#EXTINF:-1 , Señal Eventos
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) 
+Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/bpk-tv/SenalEventos/default/index.mpd |referer=https://player.sensa.com.ar/&webtoken=1.0
+bad94ad091751a8adf0369f80ca83d17:be43a68903a920561dc14daf19229d97 
+#EXTINF:-1 , TNT Sports
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) 
+Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/bpk-tv/TNTSports/default/index.mpd 
+08fe89bb41ac5f4825bbaa358b3458c7:c1ea85d94fb80f64d53747529e488a75 
+#EXTINF:-1 , ESPN Premium
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) 
+Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/ESPNPremium/live_dash_cld/ESPNPremium.mpd|referer=https://player.sensa.com.ar/&webtoken=1.0 
+f8943d114e25151c8ae4f612351d5a5f:7f34c9a70c836020cbc3273c427ff277 
+#EXTINF:-1 , Senal Eventos1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/bpk-tv/SensaEventos1/default/index.mpd|referer=https://player.sensa.com.ar/&webtoken=1.0
 
-#EXTINF:-1 tvg-id="NBA TV" tvg-logo="" group-title="izzi go",NBA TV
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d7dffe9683f1faf907e729911d56bba3:2ae415adf5f1f572f885536ed0fb6494
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/12/out/u/dash/NBA-HD/default.mpd
+INFANTILES 
+#EXTINF:-1 , Paka Paka
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/live/eds/PakaPaka/live_dash_cld/PakaPaka.mpd 
+b767babf86cd94bb854084213c0ff47c:04847c6299cd7b48ebda927e957c167c 
+#EXTINF:-1 , Plim Plim
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+https://cdn.sensa.com.ar/bpk-tv/PlimPlim/default/index.mpd 
+a47bfb9e246f3b8405c1225fae73da9e:a4865fb8742b4541f64ac37370e902a6 
+#EXTINF:-1 , Baby TV
+https://cdn.sensa.com.ar/live/sta01/BabyTV/live_dash_cld/BabyTV.mpd 
+5cf6da7262ddb74c2f370ded6056f46c:78109125565ab1747f511f7e77e3bbaf 
+#EXTINF:-1 , Nick Jr
+https://cdn.sensa.com.ar/live/eds/NickJrCo/live_dash_cld/NickJrCo.mpd 
+040efb4ac8008085d09c17db602b24fa:1940b88114de13d460cb196326e638a7 
+#EXTINF:-1 , ZooMoo
+https://cdn.sensa.com.ar/live/sta01/ZooMoo/live_dash_cld/ZooMoo.mpd 
+315a4cd39af723738d2ba908b06c4aca:39ad2b131a8744f4b3be5d9b4d86440a 
+#EXTINF:-1 , Discovery Kids
+https://cdn.sensa.com.ar/live/eds/DiscoveryKids/live_dash_cld/DiscoveryKids.mpd 
+4d8b3220ac30e5c8148d4bcc225efa5a:eb6918dfe117fc405396a9c3986a0450 
+#EXTINF:-1 , Disney JR
+https://cdn.sensa.com.ar/live/eds/DisneyJR/live_dash_cld/DisneyJR.mpd 
+18654944953b25a8b6392722a83db653:40bf6a9f05bbf0e06715ed5707f0edd2 
+#EXTINF:-1 , Disney Channel
+https://cdn.sensa.com.ar/live/eds/DisneyCh/live_dash_cld/DisneyCh.mpd 
+70d91b14935a3599f02e5dab71ef21dc:803e9152e9daf717b772399a97802076 
+#EXTINF:-1 , Cartoon Network
+https://cdn.sensa.com.ar/live/eds/CartoonNetwork/live_dash_cld/CartoonNetwork.mpd 
+c7efe63bbf682a4124fb34c01eb7a0a7:48667511b8668df96fa3abaa623e4f69 
+#EXTINF:-1 , Nickelodeon
+https://cdn.sensa.com.ar/live/eds/Nickelodeon/live_dash_cld/Nickelodeon.mpd 
+d4632100135488925c1d7e9895a26b99:1da478f687b850c61c9af61985d97c17 
+#EXTINF:-1 , Boomerang
+https://cdn.sensa.com.ar/live/eds/Boomerang/live_dash_cld/Boomerang.mpd 
+cf15d5a0f9329f815779d4a7dd760fbc:cd00a8a3f6a167954d4f678fab2323da 
+#EXTINF:-1 , Tooncast
+https://cdn.sensa.com.ar/live/eds/Tooncast/live_dash_cld/Tooncast.mpd 
+fd904e04bd403cfa97b7482f3fefbea1:600f05511e9e743d8de056380e24310f 
+#EXTINF:-1 , Canal Infantil
+https://cdn.sensa.com.ar/live/sta01/CanalInfantil/live_dash_cld/CanalInfantil.mpd 
+39673983f4ba22f0f80c0934ce0424c8:cd9f3498cb63cc72d1317b14a67ab93c 
 
-#EXTINF:-1 tvg-id="SKY SPORTS" tvg-logo="" group-title="izzi go",SKY SPORTS
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=335511dfdf0d03bc06f1fdead5870b5a:1a022fb33ad3de4d4579b04966551488
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/13/out/u/dash/SKY-SPORTS-HD/default.mpd
+CINE Y SERIES 
 
-#EXTINF:-1 tvg-id="SKY SPORTS" tvg-logo="" group-title="izzi go",SKY SPORTS
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=cb80e1e7d7598eaf98b1dbbe6dc14ee9:103ae55c7948ca1d159d6743619d26c4
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd
+#EXTINF:-1 , Cine AR 
+https://cdn.sensa.com.ar/live/eds/CineAR/live_dash_cld/CineAR.mpd 
+2b1d643b42908bda2927137cf3747e1a:9ccd9052a9a28c05096996e82c080eb3 
+#EXTINF:-1 , Volver
+https://cdn.sensa.com.ar/live/eds/Volver/live_dash_cld/Volver.mpd 
+7a7ecf0c34695dd4e253574b0b85441e:e6518e0b5dfa5e0dc268a5b16106811b 
+#EXTINF:-1 , Cinemax
+https://cdn.sensa.com.ar/live/eds/Cinemax/live_dash_cld/Cinemax.mpd 
+3b3d89f0e099f750bab4f8c2ebc4c7ec:114313f734e7a8e84b0ca6d16bd652cb 
+#EXTINF:-1 , Europa Europa
+https://cdn.sensa.com.ar/live/eds/EuropaEuropa/live_dash_cld/EuropaEuropa.mpd 
+01c6295e3fc98352427941dc1015605a:bac9c97340df0b813a9f08c54880feb4 
+#EXTINF:-1 , Space TV 
+https://cdn.sensa.com.ar/live/eds/Space/live_dash_cld/Space.mpd 
+fd7516e74eafbf6f9664a9465149f179:6aa2935d17fd4e1e8963ecbef4edb82b 
+#EXTINF:-1 , FilmArts
+https://cdn.sensa.com.ar/live/eds/FilmArts/live_dash_cld/FilmArts.mpd 
+8fe3226b05e86b7107d2c05e402d14ee:2caa3a78f028164cf395c6ed40b9d39a 
+#EXTINF:-1 , Cinecanal
+https://cdn.sensa.com.ar/live/eds/Cinecanal/live_dash_cld/Cinecanal.mpd 
+acea34a4dadf7896a0280b08496d49d5:6eb61a3bf3411c64f89b594e57d487c6 
+#EXTINF:-1 , Golden
+https://cdn.sensa.com.ar/live/eds/Golden/live_dash_cld/Golden.mpd 
+6ecbd132de727224c161abd8065b0dfb:75faf1eca3cef7208e19de379d0a529d 
 
-#EXTINF:-1 tvg-id="SKY SPORTS" tvg-logo="" group-title="izzi go",SKY SPORTS
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=99909032389c6ee41c3d2f3ec829f804:41fbc575c8ef1cdac1dca990c9a0df9d
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/13/out/u/dash/SKY-SPORTS-21-HD/default.mpd
+#EXTINF:-1 , Golden Edge
+https://cdn.sensa.com.ar/live/eds/GoldenEdge/live_dash_cld/GoldenEdge.mpd 
+202c8579c94df506c1a1c54ef49a0c60:871f84901f3580cfa7273293482a66c5 
+#EXTINF:-1 , TNT
+https://cdn.sensa.com.ar/live/eds/TNT/live_dash_cld/TNT.mpd 
+902f1f857c30081b249ae358e12f9b82:fff8cb0d93b57845c1ccba458f51970d 
+#EXTINF:-1 , Adul tSwim
+https://cdn.sensa.com.ar/live/eds/AdultSwim/live_dash_cld/AdultSwim.mpd 
+476ae5b67b7ad297ac643386d2daa229:0ef75009de12efe833dafa97aa30272c 
+#EXTINF:-1 , FX
+https://cdn.sensa.com.ar/live/eds/FX/live_dash_cld/FX.mpd 
+bbb8c81822a1628f4986c6379ca5406a:b661265baada5324eb826224a4f358bd 
+#EXTINF:-1 , Cine Premium
+https://cdn.sensa.com.ar/live/sta01/CinePremium/live_dash_cld/CinePremium.mpd 
+812f89cb0024d3699e832d72e4f0ebb6:851d7496cd1a7e03125b2b6d3b41c922 
+#EXTINF:-1 , Cine Hispano
+https://cdn.sensa.com.ar/live/sta01/CineHispano/live_dash_cld/CineHispano.mpd 
+c3cb7320815d01cb41fdb0e9d5bd2915:7c89266b0cc60fa3419474fc96c18927 
+#EXTINF:-1 , Cine Familiar
+https://cdn.sensa.com.ar/live/sta01/CineFamiliar/live_dash_cld/CineFamiliar.mpd 
+7686e3ee3e606e6694e6e39fcbc9a8b7:cd0fa59bb71a398843499febb859c341 
+#EXTINF:-1 , Morbido TV 
+https://cdn.sensa.com.ar/bpk-tv/Morbido/default/index.mpd 
+6a48e923df0b1783bfa0e82a3c51fc20:122676906256fb0154d841936909c57b 
+#EXTINF:-1 , Comedy Central
+https://cdn.sensa.com.ar/live/eds/ComCentral/live_dash_cld/ComCentral.mpd 
+eed9a193b3c6167b823030d788d771a4:d21daeba7e513d9f3ba714deeddd0630 
+#EXTINF:-1 , Star Channel
+https://cdn.sensa.com.ar/live/eds/StarChannel/live_dash_cld/StarChannel.mpd 
+78396693b172158176c33c28f2e7c0b8:1e251112819a34ed691bc3881c64ea4d 
+#EXTINF:-1 , Warner
+https://cdn.sensa.com.ar/live/eds/Warner/live_dash_cld/Warner.mpd 
+0cd16f9eade5bddab41fd3d59f804bcb:885dc93b0692e2efe37449a4a56173ef 
+#EXTINF:-1 , Sony Channel
+https://cdn.sensa.com.ar/live/eds/Sony/live_dash_cld/Sony.mpd 
+258b455eee76d6406f87dd02ddc735d9:dd8aad74c79fe839cc142d0ff6694473 
+#EXTINF:-1 , AXN
+https://cdn.sensa.com.ar/live/eds/AXN/live_dash_cld/AXN.mpd 828c473cb192caaba8e1d9fc63da4d75:cb600861e9822efeea5d2dbd0c157c45 
+#EXTINF:-1 , USA Network
+https://cdn.sensa.com.ar/live/eds/USANetwork/live_dash_cld/USANetwork.mpd 3a1e766119c3fb03b095c8e7f0e63139:03932364e1ff6ab68cdc2c1969aee6a5 
 
-#EXTINF:-1 tvg-id="SKY SPORTS" tvg-logo="" group-title="izzi go",SKY SPORTS
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d8d5823d92a9ef9306a4cc4bd634b4b4:df9fbdaa0ef9e905b75f4692f213af19
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/15/out/u/dash/SKY-SPORTS-24-HD/default.mpd
+#EXTINF:-1 , AMC Series
+https://cdn.sensa.com.ar/live/eds/AMCSeries/live_dash_cld/AMCSeries.mpd 
+420a8a8f74e8a2b850cae8422216a653:03adc142038343f8558fd09fa28163cb 
+#EXTINF:-1 , TNT Series
+https://cdn.sensa.com.ar/live/eds/TNTSeries/live_dash_cld/TNTSeries.mpd 
+2d15f2d2f8f81fbacd82391f5889aa3a:97c7a5029500a81d37f2b70d6276fc9a 
+#EXTINF:-1 , Universal Channel
+https://cdn.sensa.com.ar/live/eds/Universal/live_dash_cld/Universal.mpd 
+7c6cc36b9c3f44f37b713ad40483e085:ceaecf70b99780967d97b9eaf6e2ad5f 
 
-#EXTINF:-1 tvg-id="SKY SPORTS EVENTOS 1" tvg-logo="" group-title="izzi go",SKY SPORTS EVENTOS 1
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a3636a51227fa338cdddf5892d8a621c:1444ee3c4d08bf39454b914f797968eb
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-1-HD/default.mpd
+#EXTINF:-1 , Studio Universal
+https://cdn.sensa.com.ar/live/eds/StudioUniversal/live_dash_cld/StudioUniversal.mpd 
+3a07b220f8f142a0ef8662ffa0adee4f:e88846d040cd157b28ffda1d44a5cf89 
+#EXTINF:-1 , DHE
+https://cdn.sensa.com.ar/live/eds/DHE/live_dash_cld/DHE.mpd 
+5453180074c0a8ecfe2a21e0cd5f2c1b:1150fd93492ba8609fb94d0a3087b3a5 
+#EXTINF:-1 , Paramount
+https://cdn.sensa.com.ar/live/eds/Paramount/live_dash_cld/Paramount.mpd 
+89a868599af0fa0368a547da1611201e:d7be949b296decca8d6a2d535c057dc6 
+#EXTINF:-1 , TCM
+https://cdn.sensa.com.ar/live/eds/TCM/live_dash_cld/TCM.mpd 
+18cfe27adad2e444dc0f50a3238a1740:a0e25f18be94d6eb1c9733111135c047 
+#EXTINF:-1 , Euro channel
+https://cdn.sensa.com.ar/bpk-tv/Eurochannel/default/index.mpd 
+bf1324eab263b72f5d8373a9678e6774:1375cd3390772b03b5136dce1641ba84 
+#EXTINF:-1 , De Pelicula
+https://cdn.sensa.com.ar/live/eds/DePelicula/live_dash_cld/DePelicula.mpd 
+639e9249b63b731e7621953d27aa5393:ce09cb3f4bcad5c1febe10893b6ba491
 
-#EXTINF:-1 tvg-id="SKY SPORTS EVENTOS 2" tvg-logo="" group-title="izzi go",SKY SPORTS EVENTOS 2
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7239a58fb7388b222a834d549bf18d8f:8b04a883e88dbdebc43673d998ea1cb2
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/15/out/u/dash/SKY-LIVE-EVENT-2-HD/default.mpd
+HBO 
 
-#EXTINF:-1 tvg-id="SKY SPORTS EVENTOS 3" tvg-logo="" group-title="izzi go",SKY SPORTS EVENTOS 3
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=561a21ad50f806b77d328dedbe59f93e:edf3e70cc9de81a73e2a00fe9c0611a8
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-3-HD/default.mpd
+#EXTINF:-1 , HBO
+https://cdn.sensa.com.ar/live/eds/HBO/live_dash_cld/HBO.mpd 
+dead023f7a81634339ae639990c1517a:ba970222b4466c61d0deccc67ab34452 
+#EXTINF:-1 , HBO 2
+https://cdn.sensa.com.ar/live/eds/HBO2/live_dash_cld/HBO2.mpd f962b76c3693dafee011746344b5e823:1ac863f1633dfc2d3db069f3dd9a8145 https://cdn.sensa.com.ar/live/eds/HBOPlus/live_dash_cld/HBOPlus.mpd 
+c6f386db42c083a82b8969064eb9907d:dc492969ce6b9cb3909a5d59a33f88da 
+#EXTINF:-1 , HBO Family
+https://cdn.sensa.com.ar/live/eds/HBOFamily/live_dash_cld/HBOFamily.mpd 
+c6f386db42c083a82b8969064eb9907d:dc492969ce6b9cb3909a5d59a33f88da 
+#EXTINF:-1 , HBO Signature
+https://cdn.sensa.com.ar/live/eds/HBOSignature/live_dash_cld/HBOSignature.mpd 
+bf48ba89e03b41e52882a7e155facd9c:50103d8a819d4faed4e44dc6cd908066 
+#EXTINF:-1 , HBO Mundi
+https://cdn.sensa.com.ar/live/eds/HBOMundi/live_dash_cld/HBOMundi.mpd 
+bea5da44f49a7e30d21a6e0a2fddc225:0185b209bf50e2a1b1cfd416db5177de 
+#EXTINF:-1 , HBO Pop
+https://cdn.sensa.com.ar/live/eds/HBOPop/live_dash_cld/HBOPop.mpd 
+d5cf1ad9c7bc0a20051535aff63a5c04:019ea0de590a01385f50ae3fe090d19e 
+#EXTINF:-1 , HBO Xtreme
+https://cdn.sensa.com.ar/live/eds/HBOXtreme/live_dash_cld/HBOXtreme.mpd 
+33d4823ed2cae55c19fa0a7c20fa4235:a64c4d55edb20046802e76332c8aa75e 
 
-#EXTINF:-1 tvg-id="SKY SPORTS EVENTOS 4" tvg-logo="" group-title="izzi go",SKY SPORTS EVENTOS 4
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=a931b2e953695ffb0cfd38573e97ba33:4ddd99cc4fb168d7f0e20be8a3287100
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-4-HD/default.mpd
+UNIVERSAL
 
-#EXTINF:-1 tvg-id="SKY SPORTS EVENTOS 5" tvg-logo="" group-title="izzi go",SKY SPORTS EVENTOS 5
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=6c89e84c52eae0428b7d2c8e887a48ec:758a1484f920a0f1aa73e95d5f2be225
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/12/out/u/dash/SKY-LIVE-EVENT-5-HD/default.mpd
+#EXTINF:-1 , Universal Premiere 
+https://cdn.sensa.com.ar/live/eds/UniPre/live_dash_cld/UniPre.mpd 
+4ca479ba8963f132c701eefaa0fb2b5a:bed235194da5e18108c12ef81b324a80 
+#EXTINF:-1 , Universal Cri
+https://cdn.sensa.com.ar/live/eds/UniCri/live_dash_cld/UniCri.mpd 
+7ad1cfe8edbc35b5bab1a66a5ce298b3:25794ae1df1e9908d43a102481e7d311 
+#EXTINF:-1 , Universal Comedy 
+https://cdn.sensa.com.ar/live/eds/UniCom/live_dash_cld/UniCom.mpd 
+94cdab8673fe231a8de57259eac5522b:1125d154649770cc122770531b8f8b30 
+#EXTINF:-1 , Universal Cinema 
+https://cdn.sensa.com.ar/live/eds/UniCin/live_dash_cld/UniCin.mpd 
+6a65e77fb5f2838b2f97c778cc571ac2:bc1f28b1ec619ed7da22fc9a80d3a35d 
+#EXTINF:-1 , Universal Reality 
+https://cdn.sensa.com.ar/live/eds/UniRea/live_dash_cld/UniRea.mpd 
+dfbcbe656b34884d8f8dcc57d2dc51f8:d3e2c03003b443ccedd30d6442fbdd40 
 
-#EXTINF:-1 tvg-id="SKY SPORTS EVENTOS 6" tvg-logo="" group-title="izzi go",SKY SPORTS EVENTOS 6
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ec7229067cde06e0bedaa0d71ec0c974:da03b65d333e74aaae446211a83c7595
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/11/out/u/dash/SKY-LIVE-EVENT-6-HD/default.mpd
+VARIEDADES 
 
-#EXTINF:-1 tvg-id="SKY SPORTS EVENTOS 7" tvg-logo="" group-title="izzi go",SKY SPORTS EVENTOS 7
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d9e3024854648dd01714f781c1492c4c:9404541975d298f6787c591d2cc871b1
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/15/out/u/dash/SKY-LIVE-EVENT-7-HD/default.mpd
+#EXTINF:-1 , El Gourmet
+https://cdn.sensa.com.ar/live/eds/ElGourmet/live_dash_cld/ElGourmet.mpd 
+0853b1d2af7d6ee5f7a8a571637ee6b7:f173ff83e8a50d7d0c363cde0c261dc6 
+#EXTINF:-1 , Food Network
+https://cdn.sensa.com.ar/live/eds/FoodNetwork/live_dash_cld/FoodNetwork.mpd 
+53b35977eefc0237bef0173f9b431a07:5402473ba47096edc01bb2334685d860 
+#EXTINF:-1 , HGTV
+https://cdn.sensa.com.ar/live/eds/HGTV/live_dash_cld/HGTV.mpd 
+ebc8294c36bb50fd4cc6cd89e34604bd:5d550080c8349e878fcd86821b91f74b 
+#EXTINF:-1 , Home Health
+https://cdn.sensa.com.ar/live/eds/HomeHealth/live_dash_cld/HomeHealth.mpd 
+73f141744a7aa50a45f9819f0e5bce8b:594eff3d094876954e699d548874c58f Metro HD 
+#EXTINF:-1 , Sensa EventosD
+https://cdn.sensa.com.ar/output/ARR3/sensaeventosD/output.mpd 
+#EXTINF:-1 , E Entertaiment
+https://cdn.sensa.com.ar/live/eds/Entertaiment/live_dash_cld/Entertaiment.mpd 
+0839729159fd400250f90532f41b65f3:992972a1b89982c359c4b4a5f8034eed 
+#EXTINF:-1 , Lifetime
+https://cdn.sensa.com.ar/live/eds/Lifetime/live_dash_cld/Lifetime.mpd 
+6f85d8282bb6fe2db8f34299d5742f02:28d49f409d718ecad8f82f477d3beb77 
 
-#EXTINF:-1 tvg-id="SKY SPORTS EVENTOS 8" tvg-logo="" group-title="izzi go",SKY SPORTS EVENTOS 8
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=22b844cc7ace9720731897f0713aa763:15b3516a326dabc32807f0950c28fb76
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/13/out/u/dash/SKY-LIVE-EVENT-8-HD/default.mpd
+DOCUMENTALES 
+#EXTINF:-1 , AyE 
+https://cdn.sensa.com.ar/live/eds/AyE/live_dash_cld/AyE.mpd 
+736bef197ba5c73203add79c8e8d279a:7f037dc5835305f22a7206d79d4d5db2 
+#EXTINF:-1 , ID
+https://cdn.sensa.com.ar/live/eds/ID/live_dash_cld/ID.mpd 
+f413ca6b4955bab7d89a3d24bbf8c98b:58168613434035ceb98e18815f97436c 
+#EXTINF:-1 , Canal A
+https://cdn.sensa.com.ar/live/eds/CanalA/live_dash_cld/CanalA.mpd 
+9efda9142e194613fe8c3cad87f83cc0:cd3cbf606602e6ec433ecac804898b79 
+#EXTINF:-1 , Discovery Theater
+https://cdn.sensa.com.ar/live/eds/DiscoveryTheater/live_dash_cld/DiscoveryTheater.mpd 
+a753ba6e6b313f129bd6591364680f07:f3f8e1a7633b262ca37ae8c35f3cd1e2 
+#EXTINF:-1 , Discovery Science
+https://cdn.sensa.com.ar/live/eds/DiscoveryScience/live_dash_cld/DiscoveryScience.mpd 
+2fcef63599e86bd9bd69644234020cd6:a82db4ee21e762bf6c734e71088511c0 
+#EXTINF:-1 , Discovery World
+https://cdn.sensa.com.ar/live/eds/DiscoveryWorld/live_dash_cld/DiscoveryWorld.mpd 
+b94901c6926870683c5baebc63496653:f04da24cd7eba6dfdd0d66ea2a2feb24 
+#EXTINF:-1 , Nat Geo
+https://cdn.sensa.com.ar/live/eds/NatGeo/live_dash_cld/NatGeo.mpd 
+e44c7a4a62dc2bea573f5b21ea78342b:bf1996a534ea01086d0b8e284f0f4e7b 
+#EXTINF:-1 , Animal Planet
+https://cdn.sensa.com.ar/live/eds/AnimalPlanet/live_dash_cld/AnimalPlanet.mpd 
+dbea5682978c5593d7f9f32ba3fbd000:992754095f050d53163c059ff4e81571 
+#EXTINF:-1 , Love Nature
+https://cdn.sensa.com.ar/bpk-tv/LoveNature/default/index.mpd 
+=ea6437084f6c055c7c856f86361e86fa:9791c0e6f72b4a5eacf8bddfa5290209 
+#EXTINF:-1 , SUN Channel
+https://cdn.sensa.com.ar/live/eds/SUN/live_dash_cld/SUN.mpd 
+6ae7578729bde9d2f342090141103687:fb009bb37dd8fb98e2913f6b762b79e5 
+#EXTINF:-1 , Discovery Channel
+https://cdn.sensa.com.ar/live/eds/DiscoveryChannel/live_dash_cld/DiscoveryChannel.mpd 
+74ec986b3388c62f5fa7c551e225d0b8:9327821de5eace5508cf573778c8c3c3 
+#EXTINF:-1 , Discovery Travel And Living
+https://cdn.sensa.com.ar/live/eds/DiscoveryTravelAndLiving/live_dash_cld/DiscoveryTravelAndLiving.mpd 
+bed07c7fbbc6a3024baa8a44c052dd59:a632dead698156b3f2083076aa192b57 
+#EXTINF:-1 , History
+https://cdn.sensa.com.ar/live/eds/History/live_dash_cld/History.mpd 
+3729d075c1a22d06bd6978c941ff0d13:c106c6d1dd58f4f14b6ebe6c8672fd0b 
+#EXTINF:-1 ,History 2
+https://cdn.sensa.com.ar/live/eds/History2/live_dash_cld/History2.mpd 
+454a4c570f8b662076ce4f1a931d3b06:2e7233e228d7d8a203e07e2b08584019
 
-#EXTINF:-1 tvg-id="AYM SPORTS TV" tvg-logo="" group-title="izzi go",AYM SPORTS TV
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=11505e498dc3571c818c350d36563dfb:1dca1b23799ef06ce4f851a3968b73b8
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/14/out/u/dash/AYM-SPORTS-TV-HD/default.mpd
+RURAL
+#EXTINF:-1 , Canal Rural
+https://cdn.sensa.com.ar/live/eds/CanalRural/live_dash_cld/CanalRural.mpd 
+24ecaed20225a367ad8fde9b6e826cd6:14dbfc007a3f5648d2c30075f037a830
+#EXTINF:-1 , Chacra TV
+https://cdn.sensa.com.ar/bpk-tv/ChacraTV/default/index.mpd 
+68e7788389d18bfa49daf812c581a3b0:b4ef16f31325e24d16390ea74b088512 
+#EXTINF:-1 , Argentinisima
+https://cdn.sensa.com.ar/bpk-tv/Argentinisima/default/index.mpd 
+=ed25b5db60330e7ea14e3bf007db0797:9b378d59f78e04e697ca958b1dd69ca7 MUSICALES 
+#EXTINF:-1 , Allegro TV 
+https://cdn.sensa.com.ar/bpk-tv/Allegro/default/index.mpd 
+53dcb05ef1f0bbd2093b0c2fe8e55a5e:d2fb9a4f8244a9af19893be032c43d3f 
+#EXTINF:-1 , Quiero Musica
+https://cdn.sensa.com.ar/live/eds/QuieroMusica/live_dash_cld/QuieroMusica.mpd 
+d62845f01d257a91fd73d62751828dc1:b600539e698a707de23e57d4cdb99d9a 
+#EXTINF:-1 , BLBD
+https://cdn.sensa.com.ar/output/SMT1/BLBD/output.mpd 
+#EXTINF:-1 , HTV
+https://cdn.sensa.com.ar/live/eds/HTV/live_dash_cld/HTV.mpd 5061291f547143b40b8abedfdff59174:fb0a1787499cbc22c2ecaf1b43dd4da7 
+#EXTINF:-1 , Mi Musica Romantica
+https://cdn.sensa.com.ar/live/sta01/MiMusicaRomantica/live_dash_cld/MiMusicaRomantica.mpd 
+0f1be10d0519e0c453105f01319fe407:9976d91bfcdc7dd2148d36af89027762 
+#EXTINF:-1 , MiMusica Regg
+https://cdn.sensa.com.ar/live/sta01/MiMusicaReggaeton/live_dash_cld/MiMusicaReggaeton.mpd 
+d288fc2da0339c9cfa178be4a07c4cd2:c0e25b5d30b6829b15266e84807a0ca6 
+#EXTINF:-1 , Mi Musica Hit
+https://cdn.sensa.com.ar/live/sta01/MiMusicaHit/live_dash_cld/MiMusicaHit.mpd 
+2246c747e5f4e1dc055050d178618935:c6c2a6693bec059ebced788d09d271f3 
+#EXTINF:-1 , Mi Musica KPOP
+https://cdn.sensa.com.ar/live/eds/MiMusicaKPOP/live_dash_cld/MiMusicaKPOP.mpd 
+c6f0b2b0142007b8624de0c2d53962c8:46b8fb713fdd09a1c55b85b6f8ad9c9c 
+#EXTINF:-1 , MTV Live
+https://cdn.sensa.com.ar/live/eds/MTVLive/live_dash_cld/MTVLive.mpd 
+886601a4fdbcbfebacbabfebcb72a9ef:6513b2b8fda2b4d2f3d940c621e1c30e 
+#EXTINF:-1 , CM
+https://cdn.sensa.com.ar/live/eds/CM/live_dash_cld/CM.mpd 
+66fe60f2feae05df5013bb706e0af6ac:514c16f8cb4ea6f2464e0298dbb16a4b 
+#EXTINF:-1 , MTV
+https://cdn.sensa.com.ar/live/eds/MTV/live_dash_cld/MTV.mpd 
+ade94a8e7881a2ba8b3ae3185ed5ad5d:350ba306783e66182b55b761d6cff6d1 
+#EXTINF:-1 , Telehit
+https://cdn.sensa.com.ar/live/eds/Telehit/live_dash_cld/Telehit.mpd 
+930f2b33864637faf2b2dab6c8d0ba92:530e6561cc4197e9eab7bf7b6f35a3ed 
+#EXTINF:-1 , El Folklorico
+https://cdn.sensa.com.ar/bpk-tv/ElFolklorico/default/index.mpd 
+6075bd0304bd40812aaa2a113b30be24:98c85fae2ce02017573a23fad09a8dfa NOVELAS 
+#EXTINF:-1 , TNT Novelas
+https://cdn.sensa.com.ar/live/eds/TNTNovelas/live_dash_cld/TNTNovelas.mpd 
+8a026fc3d443454cf1aae486b688ca9a:7665c2f6e791d44f047e5ffa927382aa 
+#EXTINF:-1 , Novelisima
+https://cdn.sensa.com.ar/bpk-tv/Novelis/default/index.mpd 
+4400f758ddbddc81b7ef9a2b32251625:aa2448ebc63a5034b9b8e6e8d15f770d 
+#EXTINF:-1 , Tlnovelas
+https://cdn.sensa.com.ar/live/eds/Tlnovelas/live_dash_cld/Tlnovelas.mpd 
+a148b587bb34fe9ba5e752b95d0f3517:ffbe529daae86e2b6cfa025a937ff7a4 
+#EXTINF:-1 , Kanal D Drama 
+https://cdn.sensa.com.ar/live/eds/KanalD/live_dash_cld/KanalD.mpd 
+b9cab32316b3d8aae0452755cebdaadd:35e61869849168043a44045f2d7ff842 
 
-#EXTINF:-1 tvg-id="BASKET AMERICAS" tvg-logo="" group-title="izzi go",BASKET AMERICAS
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3377df9a3e3ce7735793541deb49657a:df55b7df0f5d3fdb34ff56977aa7339d
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/11/out/u/dash/BASKET-AMERICAS-HD/default.mpd
+INTERNACIONALES 
+#EXTINF:-1 , Ve Plus 
+https://cdn.sensa.com.ar/bpk-tv/VePlus/default/index.mpd 
+8236bef638490a63aacdc424df908658:6229f752364cd5e71cd31a9ef9757bf1 
+#EXTINF:-1 , TVE
+https://cdn.sensa.com.ar/live/eds/TVE/live_dash_cld/TVE.mpd 
+49c79f1d16db45b4e6671c3a7550e8fc:ac26680d5cfdcab87e4139a410b9984b 
+#EXTINF:-1 , Telemundo Internacional
+https://cdn.sensa.com.ar/live/eds/Telemundo/live_dash_cld/Telemundo.mpd 
+0ae7b0708be4edf3453c1ab9d6976974:8b31a9788f6dc12640ba69560fcb4b39 
+#EXTINF:-1 , RAI Italia 
+https://cdn.sensa.com.ar/bpk-tv/RAI/default/index.mpd 
+cd225327cc07001ffff55bd9271b1b2f:faae6578b5c3fde01b9f41fd39696605
+#EXTINF:-1 , France 24
+https://cdn.sensa.com.ar/bpk-tv/France24/default/index.mpd 
+6f35f2d6a34c58941cc3e066c75c2690:872ba8b196786ee9858645e641ac221d 
+#EXTINF:-1 , DW Channel
+https://cdn.sensa.com.ar/live/eds/DWChannel/live_dash_cld/DWChannel.mpd 
+5a24d18dae30689d554afc6fc1348734:2f7420bfacfeac635b9e8ed0b5afa554 
+#EXTINF:-1 , Las Estrellas
+https://cdn.sensa.com.ar/live/eds/Estrellas/live_dash_cld/Estrellas.mpd 
+6d17e47a4a6feed691363e2e57c2e322:5e4906262b25b3f461eb9c63ea04b500 
+#EXTINF:-1 , UCL
+https://cdn.sensa.com.ar/bpk-tv/UCL/default/index.mpd 
+5746dc57cb1c26d5267d116d3f49d871:d1dc3a3a13fc3981c08a0376706b2e61 
+#EXTINF:-1 , TV Chile
+https://cdn.sensa.com.ar/bpk-tv/TVChile/default/index.mpd 
+b108e54efb596e5d6403a1759deea810:781e087cf7f814fd187f74daa62d112a 
 
-#EXTINF:-1 tvg-id="BEISBOL LATINO" tvg-logo="" group-title="izzi go",BEISBOL LATINO
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5dbf14888bd99a7b01a3c9b0386c29ed:1ee5f6042b292cfb366e5b2ec27ecf22
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/14/out/u/dash/BEISBOL-LATINO-HD/default.mpd
+RELIGION 
+#EXTINF:-1 , EWTN
+https://cdn.sensa.com.ar/live/eds/EWTN/live_dash_cld/EWTN.mpd 
+20de9c8173c1cf6d9cf22d20325e447e:58b855b048f7f5bba4ec5d47fdbe3fc9 
+#EXTINF:-1 , Radio Maria
+https://cdn.sensa.com.ar/bpk-tv/RadioMaria/default/index.mpd 
+7b1e631ba089c345f38a0bc04acf459b:1b26ad9df48567b9bdc0216e7711b85e 
+#EXTINF:-1 , Canal Luz
+https://cdn.sensa.com.ar/live/eds/CanalLuz/live_dash_cld/CanalLuz.mpd
+43ef5f8823a35d1ac482dc48dca4c273:b535315a329dfd850082d0f441b0c463 DayStar 
+#EXTINF:-1 , Day TVd
+https://cdn.sensa.com.ar/output/SMT7/DayTVd/output.mpd 
 
-#EXTINF:-1 tvg-id="COMBATV" tvg-logo="" group-title="izzi go",COMBATV
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d82fc67b0ad0eac6a3f5cadc6e515796:c9bb81474744fd82c379427312895636
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/15/out/u/dash/COMBATV-HD/default.mpd
+RADIOS 
+#EXTINF:-1 , Cadena 3 Argentina
+https://cdn.sensa.com.ar/output/ET-01/Cadena3/master.m3u8
+#EXTINF:-1 , C3d
+https://cdn.sensa.com.ar/output/SMT7/C3d/output.mpd 
 
-#EXTINF:-1 tvg-id="ITV DEPORTES" tvg-logo="" group-title="izzi go",ITV DEPORTES
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4d05c520c40e5e40ddbbda041d1e2811:f7e248dc1d326f172c621895c90338a0A
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/11/out/u/dash/ITV-DEPORTES-HD/default.mpd
+#EXTINF:-1 , Radio Cosquin Rock 
+https://cdn.sensa.com.ar/output/ET-01/cosquinrock/master.m3u8 
+#EXTINF:-1 , CRd
+https://cdn.sensa.com.ar/output/SMT7/CRd/output.mpd
 
-#EXTINF:-1 tvg-id="LAS SPORTS" tvg-logo="" group-title="izzi go",LAS SPORTS
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=9213bfbf7c02e1beada75dbd389608a5:a8a48bd40a1a62e6258a85e683a7fa78
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/14/out/u/dash/LATIN-AMERICAN-SPORTS-HD/default.mpd
+#EXTINF:-1 , Radio La Popu Cordoba 
+https://cdn.sensa.com.ar/output/ET-01/popular/master.m3u8
+#EXTINF:-1
+https://cdn.sensa.com.ar/output/SMT7/LPd/output.mpd
 
-#EXTINF:-1 tvg-id="MEXICO AL AIRE LIBRE" tvg-logo="" group-title="izzi go",MEXICO AL AIRE LIBRE
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=12134b1ade9e2c55be144a1216e8e5fa:10c49aabd94518ccd4b8c3f7fd2bacdb
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/12/out/u/dash/MEXICO-AL-AIRE-LIBRE-HD/default.mpd
+#EXTINF:-1 , CREA TV - Radio Voterix La Pampa 
+https://cdn.sensa.com.ar/output/SMT7/VtxD/output.mpd 
+#EXTINF:-1 , FutuRock - Buenos Aires 
+https://cdn.sensa.com.ar/output/SMT6/FTRd/output.mpd
 
-#EXTINF:-1 tvg-id="ADRENALINA SPORTS NETWORK" tvg-logo="" group-title="izzi go",ADRENALINA SPORTS NETWORK
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=6de0a66b528401c0378c559712f74643:f9a240cea75f585add8405375ad1d787
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/11/out/u/dash/ADRENALINA-HD/default.mpd
+#EXTINF:-1 , OLDI 
+https://cdn.sensa.com.ar/output/SMT1/OldiD/output.mpd
 
-#EXTINF:-1 tvg-id="ESPN 4" tvg-logo="" group-title="izzi go",ESPN 4
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=061e235ee9adb89ec6b9079c1376a0df:eaad014534261886681fdbbdd676a4d4
-#EXTHTTP:{"Origin":"https://www.izzigo.tv","Referer":"https://www.izzigo.tv/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0"}
-https://live1-ott.izzigo.tv/11/out/u/dash/ESPN-4-HD/default.mpd
+#EXTINF:-1 , Radio Comunicar - Jesus Maria y Colonia Caroya - Pcia. de Cordoba
+https://cdn.sensa.com.ar/output/COR/comunicarcaroyaD/output.mpd
+757d16fea9c04078e95692c5a54aedb6:54a8dfa3c04ce3989045006ad5a75a09 
+
+#EXTINF:-1 , BOLIVIA TV 
+https://cdn.sensa.com.ar/live/eds/BoliviaTv/live_dash_cld/BoliviaTv.mpd 
+7de2fc4a629fae4a4cd01e8df01d29b2:76572261e8d9f6fe5316de23900a50c7 
+#EXTINF:-1 , Bolivision
+https://cdn.sensa.com.ar/live/eds/Bolivision/live_dash_cld/Bolivision.mpd 
+edc5d09a6b6504c8adef1db8ed8eaad3:ae36073bb983392539b3611ea2edafed 
+#EXTINF:-1 , Bolivis SCZ
+https://cdn.sensa.com.ar/live/eds/BolivisSCZ/live_dash_cld/BolivisSCZ.mpd 
+018a30d63d832e4e648b4a470d8c9b4d:d03c4618d69f54ed786ba12bbe30c7dc 
+#EXTINF:-1 , Bolivis CBB
+https://cdn.sensa.com.ar/live/eds/BolivisCBB/live_dash_cld/BolivisCBB.mpd 
+c12154c7f5948d3530ef77277ea5ad81:95b594525dbcbc4843615d02a79dd82c 
+#EXTINF:-1 , PAT
+https://cdn.sensa.com.ar/live/eds/PAT/live_dash_cld/PAT.mpd 
+240aa3cc9a5ba34810a2809cb4ca0161:c5796a68698b48c38bf7b6690fb4e49e 
+#EXTINF:-1 , Unitel LPZ
+https://cdn.sensa.com.ar/live/eds/UnitelLPZ/live_dash_cld/UnitelLPZ.mpd 
+ec710c6701ea020341c6a4bb80d5c674:d9422935c1ef849f1531bf5bed9c744a 
+#EXTINF:-1 , Unitel SCZ
+https://cdn.sensa.com.ar/live/eds/UnitelSCZ/live_dash_cld/UnitelSCZ.mpd 
+c12154c7f5948d3530ef77277ea5ad81:95b594525dbcbc4843615d02a79dd82c 
+#EXTINF:-1 , Unitel CBB
+https://cdn.sensa.com.ar/live/eds/UnitelCBB/live_dash_cld/UnitelCBB.mpd 
+b875968c742c2479188dc8d3bde9a0d2:f3d9ade895627134dd8620de03b9bc9f 
+#EXTINF:-1 , ATB
+https://cdn.sensa.com.ar/live/eds/ATB/live_dash_cld/ATB.mpd 
+43dff696b10b6d48246f645122112cbe:266d083a236b19602f41dd7598f79c1b 
+#EXTINF:-1 , ATBSCZ
+https://cdn.sensa.com.ar/live/eds/ATBSCZ/live_dash_cld/ATBSCZ.mpd 
+07bc4024ffee7a0d65672fadaebaa8ba:39fa31abd6647e8938f483278871046d 
+#EXTINF:-1 , ATBCBB
+https://cdn.sensa.com.ar/live/eds/ATBCBB/live_dash_cld/ATBCBB.mpd 
+1b12d02551f3883022576dea1011d118:268f85aa0cbd5d7dd5a21839c597a6f6 
+#EXTINF:-1 , Red Uno
+https://cdn.sensa.com.ar/live/eds/RedUno/live_dash_cld/RedUno.mpd 
+eb7d30c389912d6453a83c36192bc3a4:4365c4a2fda1cd94e8856a341a7452a5 
+#EXTINF:-1 , Red Uno SCZ
+https://cdn.sensa.com.ar/live/eds/RedUnoSCZ/live_dash_cld/RedUnoSCZ.mpd 
+8695b7de8c4fb3f38e7527b12752c9f3:1d1943189647a9493dc2529b269a18eb 
+#EXTINF:-1 , Red Uno CBB
+https://cdn.sensa.com.ar/live/eds/RedUnoCBB/live_dash_cld/RedUnoCBB.mpd 
+0d2a13fc11c60316a6432ed1dd8b9a0f:c83ca0863d0243c7206b040052954ed4 
+#EXTINF:-1 , RTP
+https://cdn.sensa.com.ar/live/eds/RTP/live_dash_cld/RTP.mpd 
+ac28643c04076714deaf13c558494a5c:a940427e7bca64d5162227f2208a15c5 
+#EXTINF:-1 , Gigavision
+https://cdn.sensa.com.ar/bpk-tv/Gigavision/default/index.mpd 
+
+#EXTINF:-1 , TV Culturas
+https://cdn.sensa.com.ar/bpk-tv/TVCulturas/default/index.mpd NO REQUIERE KEY 
+#EXTINF:-1 , Cadena A
+https://cdn.sensa.com.ar/bpk-tv/CadenaA/default/index.mpd 
+
+#EXTINF:-1 , TVULPZ 
+https://cdn.sensa.com.ar/bpk-tv/TVULPZ/default/index.mpd NO REQUIERE KEY 
+#EXTINF:-1 , XTOTV
+https://cdn.sensa.com.ar/bpk-tv/XTOTV/default/index.mpd 
+
+#EXTINF:-1 , ESPN-Bolivia
+https://cdn.sensa.com.ar/live/eds/ESPN-Bolivia/live_dash_cld/ESPN-Bolivia.mpd 
+e1ef5c825da48fbeeaa30e8f60ce44bd:982d1273c4a1cf6ddb8b2306a025d2f7 
+#EXTINF:-1 , ESPN 5 Bolivia
+https://cdn.sensa.com.ar/live/eds/ESPN5Bolivia/live_dash_cld/ESPN5Bolivia.mpd 
+3363a5880018821bdd854ddcdf879780:afadc56db7e9690efdaded5bba0e6d5d 
+#EXTINF:-1 , ESPN 6 Bolivia
+https://cdn.sensa.com.ar/bpk-tv/ESPN6Bolivia/default/index.mpd 
+0ce509689c0a6a9be57d366ce4129650:263b433faed40d221c8de4b77113efce 
+#EXTINF:-1 , ESPN 7 Bolivia
+https://cdn.sensa.com.ar/live/eds/ESPN7Bolivia/live_dash_cld/ESPN7Bolivia.mpd 
+055b26873d74bc9a7f10bd10900f461c:55ff1f66dd94290476672e0c1143c1a2 LOCALES PCIA. DE BS.AS. CEPATV - Punta Alta 
+#EXTINF:-1 , CEPATVD
+https://cdn.sensa.com.ar/output/SMT2/CEPATVD/output.mpd
+
+#EXTINF:-1 , Canal 7 - San Antonio de Areco 
+https://cdn.sensa.com.ar/output/ARR2/C7SAAD/output.mpd CableCoop - Coronel Charlone 
+#EXTINF:-1 , CCCD
+https://cdn.sensa.com.ar/output/SMT4/CCCD/output.mpd 
+
+#EXTINF:-1 , NTV - Tortuguitas 
+https://cdn.sensa.com.ar/output/SMT5/NTVD/output.mpd 
+
+#EXTINF:-1 , Telviso TV 
+https://cdn.sensa.com.ar/output/SMT2/TELD/output.mpd 
+
+#EXTINF:-1 , CLYFER 
+TV - Rojas https://cdn.sensa.com.ar/output/ARR/CLYFERD/output.mpd
+
+#EXTINF:-1 , Canal 2 Golcable - San Andres de Giles
+https://cdn.sensa.com.ar/output/SMT5/GolcableD/output.mpd
+
+#EXTINF:-1 , CeltTV Canal 2 - Tornquist 
+https://cdn.sensa.com.ar/output/SMT3/CELTTVD/output.mpd 
+
+#EXTINF:-1 , Canal 12 - Trenque Lauquen 
+https://cdn.sensa.com.ar/output/SMT6/C12TLD/output.mpd 
+
+#EXTINF:-1 , Canal 2 TV Cooperativa - Pueblo San Jose 
+https://cdn.sensa.com.ar/output/SMT2/PSJD/output.mpd 
+
+#EXTINF:-1 , Canal 4 - Pigüé 
+https://cdn.sensa.com.ar/output/SMT3/C4PD/output.mpd 
+
+#EXTINF:-1 , Bahia Vision Color - Bahia Blanca 
+https://cdn.sensa.com.ar/output/SMT7/BVCd/output.mpd 
+
+#EXTINF:-1 , Ezeiza TV 
+https://cdn.sensa.com.ar/output/SMT3/EZVD/output.mpd 
+
+#EXTINF:-1 , Barricada TV - CABA 
+https://cdn.sensa.com.ar/output/SMT6/BTVD/output.mpd 
+
+#EXTINF:-1 , Marchi TV - Batán, Arbolito y Santa Clara del Mar
+https://cdn.sensa.com.ar/output/SMT2/MARCHITVD/output.mpd 
+
+#EXTINF:-1 , MC! - General Viamonte
+https://cdn.sensa.com.ar/output/SMT6/MCVD/output.mpd
+
+#EXTINF:-1 , Radio Alfonzo 
+https://cdn.sensa.com.ar/output/SMT7/MALFD/output.mpd 
+
+#EXTINF:-1 , Canal 8 - Mar del Plata
+https://cdn.sensa.com.ar/output/SMT2/C8MPD/output.mpd
+
+#EXTINF:-1 , Canal 10 - Mar del Plata 
+https://cdn.sensa.com.ar/output/SMT6/C10MPD/output.mpd  
+
+#EXTINF:-1 , El Nueve TV - Bahia Blanca
+https://cdn.sensa.com.ar/output/SMT3/C9BBD/output.mpd
+
+#EXTINF:-1 , Teleco Canal 10 Ucacha 
+https://cdn.sensa.com.ar/output/SMT4/TelecoUcachaD/output.mpd 
+
+#EXTINF:-1 , CETV - Gneral Deheza 
+https://cdn.sensa.com.ar/output/ARR/DehezaD/output.mpd 
+
+#EXTINF:-1 , CoopNet - Colonia Brinkmann 
+https://cdn.sensa.com.ar/output/SMT4/BRKD/output.mpd
+
+#EXTINF:-1 , Nexos MC - Alcira Gigena 
+https://cdn.sensa.com.ar/output/ARR/Canal5GIGD/output.mpd
+
+#EXTINF:-1 , Multimedio Cooperativo - Rio Primero 
+https://cdn.sensa.com.ar/output/STAROSA/RIO1TVD/output.mpd 
+
+#EXTINF:-1 , Luque TV - Luque
+https://cdn.sensa.com.ar/output/STAROSA/LUQUETVD/output.mpd 
+
+#EXTINF:-1 , COVISAR TV - Santa Rosa de Rio Primero 
+https://cdn.sensa.com.ar/output/STAROSA/COVISARD/output.mpd 
+
+#EXTINF:-1 , Temple TV - Santiago Temple 
+https://cdn.sensa.com.ar/output/STAROSA/TEMPLETVD/output.mpd 
+
+#EXTINF:-1 , TV Coop - Justiniano Posse 
+https://cdn.sensa.com.ar/output/NDS/tvcoopjpD/output.mpd 
+
+#EXTINF:-1 , Canal Coop - Jesus Maria y Colonia Caroya 
+https://cdn.sensa.com.ar/output/COR/CanalCoopD/output.mpd  
+
+#EXTINF:-1 , Canal Cooperativo - Elena 
+https://cdn.sensa.com.ar/output/SMT7/C2CED/output.mpd Canal Cooperativo -
+
+#EXTINF:-1 , LVR
+https://cdn.sensa.com.ar/output/LVR/CCAD/output.mpd 
+
+#EXTINF:-1 , CEOSCA TV - Camilo Aldao 
+https://cdn.sensa.com.ar/output/NDS/CEOSCAD/output.mpd 
+
+#EXTINF:-1 , Canal 20 - Villa Maria
+https://cdn.sensa.com.ar/output/SMT5/C20D/output.mpd 
+
+#EXTINF:-1 , STV 2 - Las Varillas 
+https://cdn.sensa.com.ar/output/LVR/STV2D/output.mpd 
+
+#EXTINF:-1 , TV Cooperativa Regional (TCR) - Alto Alegre, Chilobroste, Cintra y San Antonio de Litin 
+https://cdn.sensa.com.ar/output/LVR/TCRD/output.mpd 
+ 
+#EXTINF:-1 , Coop Plus TV - Portena 
+https://cdn.sensa.com.ar/output/SMT5/PORD/output.mpd 
+
+#EXTINF:-1 , Vivencias TV - Monte Buey 
+https://cdn.sensa.com.ar/output/NDS/vivenciasD/output.mpd 
+
+#EXTINF:-1 , Canal de servicios de Monte Buey 
+https://cdn.sensa.com.ar/output/NDS/RTFD/output.mpd 
+
+#EXTINF:-1 , Eventos Deportivos 
+https://cdn.sensa.com.ar/output/NDS/evendeportivosD/output.mpd 
+
+#EXTINF:-1 , Unidos TV - Bell Ville 
+https://cdn.sensa.com.ar/output/NDS/unidostvD/output.mpd 
+
+#EXTINF:-1 , Canal 99 Radio Cardinal - Miramar de Ansenuza 
+https://cdn.sensa.com.ar/output/ARR2/C99MD/output.mpd  
+
+#EXTINF:-1 , TV Coop - Hernando 
+https://cdn.sensa.com.ar/output/ARR2/HERD/output.mpd 
+
+#EXTINF:-1 , Canal de Servicios de Monte Buey 
+https://cdn.sensa.com.ar/output/NDS/RTFD/output.mpd 
+
+#EXTINF:-1 , El Sauce - Villa General Belgrano 
+https://cdn.sensa.com.ar/output/ARR3/ElSauceTVD/output.mpd 
+
+#EXTINF:-1 , Sport TV 
+https://cdn.sensa.com.ar/output/SMT7/SportTVd/output.mpd 
+
+#EXTINF:-1 , Canal 2 Las Varas HD 
+https://cdn.sensa.com.ar/output/LVR/LVSD/output.mpd 
+
+#EXTINF:-1 , Coop Morteros Streaming - Morteros 
+https://cdn.sensa.com.ar/output/ARR/CMSD/output.mpd 
+
+#EXTINF:-1 , Canal 9 CEMDO - Villa Dolores 
+https://cdn.sensa.com.ar/output/SMT4/CMDD/output.mpd 
+
+#EXTINF:-1 , Canal 3 - Arroyito 
+https://cdn.sensa.com.ar/output/ARR3/C3AD/output.mpd 
+
+#EXTINF:-1 , Canal Local - Rio Tercero 
+https://cdn.sensa.com.ar/output/SMT3/RTD/output.mpd 
+
+#EXTINF:-1 , Canal Local - Freyre 
+https://cdn.sensa.com.ar/output/ARR3/FRYD/output.mpd 
+
+#EXTINF:-1 , Canal 2 - Almafuerte 
+https://cdn.sensa.com.ar/output/ARR/ALMD/output.mpd 
+
+#EXTINF:-1 , C50 - Morteros 
+https://cdn.sensa.com.ar/output/ACE/C50d/output.mpd 
+
+#EXTINF:-1 , Canal 10 CEGRO - General Roca 
+https://cdn.sensa.com.ar/output/SMT3/GRD/output.mpd 
+
+#EXTINF:-1 , TV Coop - Villa Huidobro 
+https://cdn.sensa.com.ar/output/SMT2/VHD/output.mpd 
+
+#EXTINF:-1 , Canal 11- Oliva 
+https://cdn.sensa.com.ar/output/NDS/OlivaD/output.mpd  
+
+#EXTINF:-1 , TV Regional Unimar - Marcos Juarez 
+https://cdn.sensa.com.ar/output/NDS/TRUd/output.mpd 
+
+#EXTINF:-1 , Teledigital - Pascanas 
+https://cdn.sensa.com.ar/output/NDS/TeledigpascanasD/output.mpd 
+
+#EXTINF:-1 , TV Cooperativa Pozo del Molle HD 
+https://cdn.sensa.com.ar/output/LVR/PDMD/output.mpd 
+
+#EXTINF:-1 , UniRio TV - Rio Cuarto 
+https://cdn.sensa.com.ar/output/SMT6/UniRioTVd/output.mpd
+
+#EXTINF:-1, El Doce
+https://cdn.sensa.com.ar/output/Canal12D/output.mpd
+#EXTINF:-1 , Canal 12 Cba
+https://cdn.sensa.com.ar/bpk-tv/Canal12cba/default/index.mpd 
+4c816a8c004ab857e53d7897c7c1db1b:a57bb2fbf55f52d9d827a04bbb531588
+
+#EXTINF:-1 , Canal 10 
+https://cdn.sensa.com.ar/output/Canal10D/output.mpd 
+#EXTINF:-1 , Canal 10 Cba
+https://cdn.sensa.com.ar/bpk-tv/Canal10cba/default/index.mpd 
+faf29a5a543c9d82ef34ec2479140003:2452197f9d4eb63a3081d986ca413375
+
+#EXTINF:-1 , Telefe Cordoba 
+http://cdn.sensa.com.ar/output/Canal8D/output.mpd 
+
+#EXTINF:-1 , Canal 8 cba
+https://cdn.sensa.com.ar/bpk-tv/Canal8cba/default/index.mpd 
+40eb9a4d4c2d374123cdaa14325f9589:432059bce61664caffc06223a1c081e2
+
+#EXTINF:-1 , Telediario TV - Rio Cuarto
+https://cdn.sensa.com.ar/bpk-tv/TelediarioTelevision/default/index.mpd 
+ff1e6f58369fa0457670eb452cb49f8a:4a5b005a7dbd38fe00c50d27fa23ab0a 
+
+#EXTINF:-1 , PCIA DE SANTA FE Canal 3 - Tacural
+https://cdn.sensa.com.ar/output/ARR2/TacuralD/output.mpd
+
+#EXTINF:-1 , Fullvision - Funes 
+https://cdn.sensa.com.ar/output/SMT2/FVD/output.mpd 
+
+#EXTINF:-1 , Canal 11 - Maria Juana
+https://cdn.sensa.com.ar/output/SMT5/MariaJuanaD/output.mpd 
+
+#EXTINF:-1 , Vive TV - Funes y Rosario 
+https://cdn.sensa.com.ar/output/SMT4/VIVED/output.mpd 
+
+#EXTINF:-1 , Canal Suardi - Suardi
+https://cdn.sensa.com.ar/output/ARR3/SADD/output.mpd 
+
+#EXTINF:-1 , Cable Imagen Armstrong - Armstrong 
+https://cdn.sensa.com.ar/output/SMT6/CIAd/output.mpd 
+
+#EXTINF:-1 , Ver TV - Venado Tuerto 
+https://cdn.sensa.com.ar/output/ARR/VTVd/output.mpd 
+
+#EXTINF:-1 , GCHUTV 
+https://cdn.sensa.com.ar/output/SMT7/GchuTVd/output.mpd 
+
+#EXTINF:-1 , Ivision TV - Villa Gobernador Galvez
+https://cdn.sensa.com.ar/output/SMT6/IVSd/output.mpd
+
+#EXTINF:-1 , El Tres - Rosario
+https://cdn.sensa.com.ar/output/ARR2/C3RD/output.mpd 
+
+#EXTINF:-1 , Telefe Rosario 
+https://cdn.sensa.com.ar/output/ARR2/TelefeRosarioD/output.mpd
+
+#EXTINF:-1 , Telefe Santa Fe 
+https://cdn.sensa.com.ar/output/COR/TSFD/output.mpd 
+
+#EXTINF:-1 , RTS Santa Fe 
+https://cdn.sensa.com.ar/output/SMT6/RTSd/output.mpd 
+
+#EXTINF:-1 , MISIONES Canal 12 Misiones
+https://cdn.sensa.com.ar/output/COR/C12PosD/output.mpd 
+
+#EXTINF:-1 , CHACO Somos Uno 
+https://cdn.sensa.com.ar/output/SMT3/CHTVD/output.mpd 
+
+#EXTINF:-1 , PCIA. DE MENDOZA Televida Mendoza
+https://cdn.sensa.com.ar/output/SMT5/TLVd/output.mpd 
+
+#EXTINF:-1 , El Siete Mendoza 
+https://cdn.sensa.com.ar/output/SMT5/C7Md/output.mpd 
+
+#EXTINF:-1 , TVA Canal 4 San Rafael 
+https://cdn.sensa.com.ar/bpk-tv/tvasanrafael/default/index.mpd 
+
+#EXTINF:-1 , Canal 6 San Rafael 
+https://cdn.sensa.com.ar/bpk-tv/canal6sanrafael/default/index.mpd  
+
+#EXTINF:-1 , TVA Malargüe 
+https://cdn.sensa.com.ar/bpk-tv/tvamalargue/default/index.mpd 
+
+#EXTINF:-1 , TVA Valle de Uco 
+https://cdn.sensa.com.ar/bpk-tv/tvavalleuco/default/index.mpd 
+
+#EXTINF:-1 , TVA General Alvear 
+https://cdn.sensa.com.ar/bpk-tv/tvagralalvear/default/index.mpd 
+
+#EXTINF:-1 , TV Cooperativa Cecsagal - General Alvear 
+https://cdn.sensa.com.ar/output/SMT4/CECD/output.mpd 
+
+#EXTINF:-1 , Radio Uno - General Alvear
+https://cdn.sensa.com.ar/output/SMT4/R1D/output.mpd 
+
+#EXTINF:-1 , Radio Joven - General Alvear 
+https://cdn.sensa.com.ar/output/SMT4/RJD/output.mpd
+
+#EXTINF:-1 , Radio Viñas - General Alvear 
+https://cdn.sensa.com.ar/output/SMT4/RVD/output.mpd 
+
+#EXTINF:-1 , Radio Stylo - General Alvear 
+https://cdn.sensa.com.ar/output/SMT4/RSD/output.mpd 
+
+#EXTINF:-1 , PCIA. DE LA PAMPA TVCO 
+https://cdn.sensa.com.ar/output/ARR/TVCOD/output.mpd 
+
+#EXTINF:-1 , CPE TV 
+https://cdn.sensa.com.ar/output/ARR/SRLPD/output.mpd 
+
+#EXTINF:-1 , LMD TV 
+https://cdn.sensa.com.ar/output/ARR2/Canal19LPD/output.mpd 
+
+#EXTINF:-1 , TV Publica Pampeana
+https://cdn.sensa.com.ar/output/ARR3/Canal3D/output.mpd 
+
+#EXTINF:-1 , PATAGONIA El Seis TV Bariloche 
+https://cdn.sensa.com.ar/output/SMT4/BC6D/output.mpd 
+
+#EXTINF:-1 , Coopetel TV - El Bolson (Rio Negro) 
+https://cdn.sensa.com.ar/output/SMT4/CPTD/output.mpd 
+
+#EXTINF:-1 , Canal 10 - Rio Negro 
+https://cdn.sensa.com.ar/output/SMT2/C10RND/output.mpd
+
+#EXTINF:-1 , Canal 10 - Rio Gallegos (Santa Cruz) 
+https://cdn.sensa.com.ar/output/ARR/Rio_GallegosD/output.mpd 
+
