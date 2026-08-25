@@ -197,6 +197,11 @@ https://cache07.zapitv.com/live/eds_c2/eurosport_1_hd/dash_live_ez/eurosport_1_h
 #EXTHTTP:{"Origin":"https://portal.app.flow.com.py","Referer":"https://portal.app.flow.com.py/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"}
 https://cache07.zapitv.com/live/eds_c2/eurosport_2_hd/dash_live_ez/eurosport_2_hd.mpd
 
+#EXTINF:-1 tvg-id="Telemundo al dia" tvg-logo="https://i.ibb.co/hJ9cjryv/T-AL-DIA.png" group-title="VPN USA",TELEMUNDO EL DIA
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0020c328ae1c2bf1e151affe5d35150a:10b555c34cc053ade7ddf4095d2dcfd4
+https://cfrt.stream.peacocktv.com/Content/CMAF_CTR-4s-v2/Live/channel(lc127fxuqc)/master.mpd
+
 #EXTINF:-1 tvg-id="Telemundo Chicago (WSNS)" tvg-logo="https://i.ibb.co/20SHH7nX/TELEMUNDO-CHICAGO.png" group-title="VPN USA",TELEMUNDO CHICAGO
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
