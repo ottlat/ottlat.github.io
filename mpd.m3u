@@ -12,30 +12,30 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd
 
 #EXTINF:-1 tvg-name="DSPORTS + HD.ve" tvg-logo="https://i.ibb.co/0y0YCFyk/DSPORTS-PLUS.png" group-title="Amazon",DSPORTS + FHD 🇨🇴
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5983506f3f2e0b6df98fd1856adf45b6:d2ae7ea26cfdc61ba0f71771539ff87f
-https://abl6x4raaaaaaaamn67hgjdjwdebj.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/9bwnwl4oqk/out/v1/3fda5baf7b1b47e8b80ff18979d55b52/cenc.mpd
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9bwnwl4oqk/out/v1/3fda5baf7b1b47e8b80ff18979d55b52/cenc.mpd
 
-#EXTINF:-1 tvg-id="DSPORTS HD.ve" tvg-logo="https://i.ibb.co/WWDdrBV5/DSPORTS.png" group-title="Amazon",DSPORTS SD
+#EXTINF:-1 tvg-id="DSPORTS HD.ve" tvg-logo="https://i.ibb.co/WWDdrBV5/DSPORTS.png" group-title="Amazon",DSPORTS SD 🇦🇷
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=45bbd582f220f438f896450d8306a3f2:582c6ba7f64bbc0f2d91c6b0c265760c
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/hubonmgf5k/out/v1/10560d92577e4917973aa4624124ecd6/cenc-sd.mpd
 
-#EXTINF:-1 tvg-id="DSPORTS 2 HD.ve" tvg-logo="https://i.ibb.co/7JcX24vF/DSPORTS2.png" group-title="Amazon",DSPORTS 2 SD
+#EXTINF:-1 tvg-id="DSPORTS 2 HD.ve" tvg-logo="https://i.ibb.co/7JcX24vF/DSPORTS2.png" group-title="Amazon",DSPORTS 2 SD 🇦🇷
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=18044a84b7e6c1bbf852591797e53a2c:38b3b6f8810917d89636927bddb79294
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/hufm7lgnhx/out/v1/5045630288d44123ba85427b2c36f29f/cenc-sd.mpd
 
-#EXTINF:-1 tvg-id="DSPORTS + HD.ve" tvg-logo="https://i.ibb.co/0y0YCFyk/DSPORTS-PLUS.png" group-title="Amazon",DSPORTS + SD
+#EXTINF:-1 tvg-id="DSPORTS + HD.ve" tvg-logo="https://i.ibb.co/0y0YCFyk/DSPORTS-PLUS.png" group-title="Amazon",DSPORTS + SD 🇦🇷
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
