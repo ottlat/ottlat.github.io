@@ -230,6 +230,13 @@ https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(WSNS)/mas
 #KODIPROP:inputstream.adaptive.license_key=2a195c95880e37688286e0a6117a336f:e6cba1c52ebee16289775f5164daece7
 https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(KDEN)/master.mpd
 
+#EXTINF:-1 tvg-id="Telemundo Denver (KDEN)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Telemundo_47_%282018%29.svg/250px-Telemundo_47_%282018%29.svg.png" group-title="VPN USA",TELEMUNDO 47 NEW YORK
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c71fe7bc82f037c6af21fd299d6341b0:13223c98886ff43d3c5f271eeb457cc6
+https://cfrt.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(WNJU)/master.mpd
+
 #EXTINF:-1 tvg-id="Telemundo 52 (KVEA)" tvg-logo="https://i.ibb.co/KcvHrb8B/TELEMUNDO-CALIFORNIA.png" group-title="VPN USA",TELEMUNDO 52 CALIFORNIA
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
