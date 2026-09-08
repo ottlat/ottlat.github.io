@@ -1,5 +1,221 @@
 #EXTM3U
 
+#EXTINF:-1 group-title="Amazon",HBO Latino 🇺🇸
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=440df5a5f7730c64f005eec9b12a9b52:dcad08b714e246f92cb9748f9e2e7e1e
+https://a201aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/pybcooahnm/out/v1/d5a5fd1cd9074da3b20ebdf8ebfaecb6/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",MoreMAX HD East 🇺🇸
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=046c374a3db594dfb32cba86d2e4f72f:04c00a6ed0fc4ce37841210a42eeeb35
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bw5g1vx3k9/out/v1/6913f190498b44c8a705e91728401769/cenc.mpd
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/clients/dash/enc/bw5g1vx3k9/out/v1/6913f190498b44c8a705e91728401769/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",ActionMax East 🇺🇸
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=136a75130b82cdf89cb5f05d739b663f:0ef360ff75bb11b7f0982a86b86d39ae
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/995zvakyej/out/v1/3fa049c0afea4a83bb5f508f1859f160/cenc.mpd
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/clients/dash/enc/995zvakyej/out/v1/3fa049c0afea4a83bb5f508f1859f160/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",AMC 🇺🇸
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3290efe4c5cf67165e846a0742c22cd9:ddb94463c46af6037432fc026339c09d
+https://otte.live.fly.ww.aiv-cdn.net/PDX/clients/dash/enc/gyczo3tdxu/out/v1/4e9f7dd1b08a404581818c3923af9a93/cenc.mpd
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/clients/dash/enc/gyczo3tdxu/out/v1/4e9f7dd1b08a404581818c3923af9a93/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",Cinemax East 🇺🇸
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3a5fc143bea61aa94eee0479933d5e72:8a365e8c3e2b8efdbcaab16d07c3b929
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rckhgp0mdp/out/v1/3952b81ea31d45b38372b128371301d2/cenc.mpd
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/clients/dash/enc/rckhgp0mdp/out/v1/3952b81ea31d45b38372b128371301d2/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",5-Star MAX East 🇺🇸
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=81a74ef0cf71e28d5d9bc55d5fd7921a:884e89f90a9f5cbaaa5c2a451e1d8f86
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yfo5p7nmtt/out/v1/fdce98358ffb47c9b6314feb9cfeda3f/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",Golden 🇲🇽
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=38dbcf2d094923f94aca4f913045e993:a475a0bcc6f77b04f07ed1487619d626
+https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/ox4csgyamg/out/v1/95cf9c4df3d542f6812f382a52771327/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",Golden EDGE 🇲🇽
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ae4cbc34d4b1645f6c7b26410dde7b58:647478cd3bd0dfb3e820249296c23096
+https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/xv3tnoayi8/out/v1/46aaaeb778de4cd39893d88a7f93b05a/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",Golden Plus 🇲🇽
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ed5849d33e07606d6118d7fb26b90cd0:63670e57e70353ca526fb07a8d7ddb7b
+https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/o09knwldwh/out/v1/15f9f74c888e4fdd9815ea94635ae4db/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",Golden Premier 🇲🇽
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b39fdb1efc89fa2b791bdce8428c3e09:1941081db257b29643c95783d3a2c5cd
+https://live-pv-ta.amazon.fastly-edge.com/gru-nitro/live/clients/dash/enc/1pyrprmguo/out/v1/e63748f718754f6ca76df9ce757b10f5/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",FOX SPORT 🇲🇽
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2fbdaa3bea0d0323ae011b318d1db716:8726ef7eaf5b9dce15fb6aa9f80bd53f
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oboxe53wyo/out/v1/f7892a9d706d419a846d738fa22ea33e/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",FOX SPORT 2 🇲🇽
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8836fb04d62dc64c9f8a39ef8640d5eb:d4f05ce56c5231b7cdf53455bea58621
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tepjqej1ys/out/v1/c9c9159baee749a19612b1598495859a/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",FOX SPORT 3 🇲🇽
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=11c8c1c2ef0385cf1e64d44bb9c3a395:5769730ffbdc4b2fd8945929d9ace063
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wybgz0orr8/out/v1/2f6d1612abd44f5883917f8a585b955f/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",FOX SPORTS PREMIUM 🇲🇽
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9f327d24c66fbd84e15ab5c9ead7c7a4:83837185529c0c4048f81386c2d36426
+https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/fdx74zqzhu/out/v1/7d7a8c6981a842b98a683e9fbfe51d17/cenc.mpd
+https://otte.cache.aiv-cdn.net/bom-nitro/live/dash/enc/fdx74zqzhu/out/v1/7d7a8c6981a842b98a683e9fbfe51d17/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",FOX DEPORTES 🇲🇽
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",FOX 🇲🇽
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ec2e6248abe2e10e16e439c9b85ffd8:f121b015c2a5197828355fb6a874c297
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/worucjnctz/out/v1/20ac5ecdc9b848dc92e7f1188bdf6ff6/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",TUDN 🇲🇽
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=763ce1ebcaf23502c8cf357c6ef423e1:0c5e6c0820a1ea28753721db00272411
+https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",ZONA TUDN 🇲🇽
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cb308ff4c4ec835baa2956212507de52:aa45e839f15058df50342ace8d040a48
+https://a12aivottepl-a.akamaihd.net/gru-nitro/live/dash/enc/mitr07scim/out/v1/4fb1073240a549479fd2f343e6cad4ba/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",Claro Sports 🇲🇽
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4b2e5f5d42771121d0dc5f6c9f74ac30:60460fa43257c537ba19a7f735d8177c
+https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/4eia4ypjxr/out/v1/2c628105d22c47dcb532e26968706a83/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",Adrenalina Sports Network
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a026ac3a83c37402f079fe046f01dbfc:98d8ff28ce7b756de95049e303611a74
+https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/qzvksg5jhh/out/v1/d602990d39454cccb066d6c09372ad4e/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",DSPORTS FHD (🇦🇷 30FPS)
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4f4c3a9912ea752e88f4497864a1bc8b:278128004fe8c6ffb2cd2a0c154a241a
+https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/x0srg3jjpz/out/v1/f779c49314394d61886d63f58d9d52e4/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",DSPORTS FHD (🇨🇴 60FPS)
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7d88a44bc0255fdc402a1a7c7151545e:a9968e19c6324e12d285836961421755
+https://qw.live.pv-cdn.net/OTTB/gru-nitro/live/clients/dash/enc/ndgbhivgbd/out/v1/39e5ea4eae884fc2bf8def73527add6a/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",DSPORTS FHD (🇨🇱 60FPS)
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=62f9e095e872d430b931b6ad35be2168:415eb477052aa42d010768d57cc9535a
+https://live-pv-ta.amazon.fastly-edge.com/gru-nitro/live/dash/enc/cardt9ai8g/out/v1/a85c58beee18435e82a57a0fb9d2f681/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",DSPORTS 2 FHD (60FPS)
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0db71325e4256f5f16b348b3b1b7832a:c664b811a97edc555da47c1d22482542
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/nzl2d4ffbw/out/v1/d094dc6ba8354f3e88b7efa32f80cc33/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",DSPORTS + FHD (60FPS)
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=da81f7165f73c884fc1dcf0bf3bd4bb5:3f8d519997196db76631dd4b427f53f6
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/hoo4ddqavw/out/v1/dadfb43b8a714e4f9288026b5c3351a0/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",La 1 🇪🇸
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=745cd6ec34a58f2f7ac2af35dc3da6d2:ae008f1e47e6567fe4201a6ff8f1ae54
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",La 2 🇪🇸
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=92eb4fb693ddc7b72909828ad62cdff5:0b6f7e58c4566ca418447332b228d488
+https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/arv0kf9ndp/out/v1/aa299e8d19994d78b35977495064e64c/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",Antena 3 Internacional 🇪🇸
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=06acea1d12fd3a8351d1cd2331c69627:ddeb96c94f745c68d590dd462e47aac2
+https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/dxnynpuvl4/out/v1/2c50fa7374c24990b81abf23e21560e2/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",A3Series 🇪🇸
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=da2e30203fffb6eee7064f1acaed621d:32a38f6a3568339261d3e2f2d0fede69
+https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/trd6ii5akx/out/v1/5e0cb7a0ffaf4d938e0a8d75775b51ea/cenc.mpd
+
+#EXTINF:-1 group-title="Amazon",A3Cine 🇪🇸
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2f897106c2cc75a16ad12c5bd2e77781:3fabd4fd1bbde56b4bb3297f81e65b7a
+https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/k9bcyfgrhw/out/v1/288f6cad09824d4898612b35d4f2aa64/cenc.mpd
+
 #EXTINF:-1 tvg-id="DSports.us" tvg-logo="https://i.ibb.co/WWDdrBV5/DSPORTS.png" group-title="Amazon",DSPORTS FHD 🇨🇴
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
