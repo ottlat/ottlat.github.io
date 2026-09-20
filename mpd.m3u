@@ -1,20 +1,20 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="Amazon",DSPORTS FHD (🇦🇷 30FPS)
+#EXTINF:-1 group-title="Amazon",DSPORTS FHD 🇦🇷 (60FPS)
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4f4c3a9912ea752e88f4497864a1bc8b:278128004fe8c6ffb2cd2a0c154a241a
-https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/x0srg3jjpz/out/v1/f779c49314394d61886d63f58d9d52e4/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3
+https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd
 
-#EXTINF:-1 group-title="Amazon",DSPORTS FHD (🇨🇴 60FPS)
+#EXTINF:-1 group-title="Amazon",DSPORTS FHD 🇨🇴 (60FPS)
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7d88a44bc0255fdc402a1a7c7151545e:a9968e19c6324e12d285836961421755
 https://qw.live.pv-cdn.net/OTTB/gru-nitro/live/clients/dash/enc/ndgbhivgbd/out/v1/39e5ea4eae884fc2bf8def73527add6a/cenc.mpd
 
-#EXTINF:-1 group-title="Amazon",DSPORTS FHD (🇨🇱 60FPS)
+#EXTINF:-1 group-title="Amazon",DSPORTS FHD 🇨🇱 (60FPS)
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -582,72 +582,128 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1
 #KODIPROP:inputstream.adaptive.license_key=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd
 
-#EXTINF:-1 tvg-id="Telemundo al dia" tvg-logo="https://i.ibb.co/hJ9cjryv/T-AL-DIA.png" group-title="VPN USA",TELEMUNDO EL DIA
+#EXTINF:-1 group-title="VPN USA",Telemundo Al Día
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0020c328ae1c2bf1e151affe5d35150a:10b555c34cc053ade7ddf4095d2dcfd4
 https://cfrt.stream.peacocktv.com/Content/CMAF_CTR-4s-v2/Live/channel(lc127fxuqc)/master.mpd
 
-#EXTINF:-1 tvg-id="Telemundo Chicago (WSNS)" tvg-logo="https://i.ibb.co/20SHH7nX/TELEMUNDO-CHICAGO.png" group-title="VPN USA",TELEMUNDO CHICAGO
+#EXTINF:-1 group-title="VPN USA",Telemundo Chicago
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7d6bb9f86e133e4cb33440b493b6b672:584ad285dcb9e7d42cf3e93f1cc3fe11
 https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(WSNS)/master.mpd
 
-#EXTINF:-1 tvg-id="Telemundo Denver (KDEN)" tvg-logo="https://i.ibb.co/bRX337YD/TELEMUNDO-DENVER.png" group-title="VPN USA",TELEMUNDO DENVER
+#EXTINF:-1 group-title="VPN USA",Telemundo Denver
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2a195c95880e37688286e0a6117a336f:e6cba1c52ebee16289775f5164daece7
 https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(KDEN)/master.mpd
 
-#EXTINF:-1 tvg-id="Telemundo Denver (KDEN)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Telemundo_47_%282018%29.svg/250px-Telemundo_47_%282018%29.svg.png" group-title="VPN USA",TELEMUNDO 47 NEW YORK
+#EXTINF:-1 group-title="VPN USA",Telemundo Nuevo México
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0a650504ba2f3f849c290b66a425f2d9:f9809d1b37c6eded90b4f5fbcc7eda26
+https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kasa)/master.mpd
+
+#EXTINF:-1 group-title="VPN USA",Telemundo Deportes Ahora
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=300b58dfdaf35e8537ce25c39e99aec7:6fc107a6f62f39da27b36ff079d7f937
+https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(telemundodeportes)/master.mpd
+
+#EXTINF:-1 group-title="VPN USA",Telemundo Deportes -2h
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=300b58dfdaf35e8537ce25c39e99aec7:6fc107a6f62f39da27b36ff079d7f937
+https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(telemundodeportes)/master_2hr.mpd
+
+#EXTINF:-1 group-title="VPN USA",Telemundo 31 Orlando
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=95a52a115ed134e881d0e7dcdd423b3e:5acb62e242dfdf1da7d041a600ec62fd
+https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(wtmo)/master.mpd
+
+#EXTINF:-1 group-title="VPN USA",Telemundo 39 Dallas
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1d9e9405b6fd33d7b42c2e6db39b757b:d9730a236f91a456694ae069c2be87f5
+https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(KXTX)/master.mpd
+
+#EXTINF:-1 group-title="VPN USA",Telemundo 47 New York
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c71fe7bc82f037c6af21fd299d6341b0:13223c98886ff43d3c5f271eeb457cc6
 https://cfrt.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(WNJU)/master.mpd
 
-#EXTINF:-1 tvg-id="Telemundo 52 (KVEA)" tvg-logo="https://i.ibb.co/KcvHrb8B/TELEMUNDO-CALIFORNIA.png" group-title="VPN USA",TELEMUNDO 52 CALIFORNIA
+#EXTINF:-1 group-title="VPN USA",Telemundo 48 Área de la Bahía
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=fa76a2cb41543bc8a1b2ebf874289934:ff292e3d115950f70c6d8c552141a520
+https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(ksts)/master.mpd
+
+#EXTINF:-1 group-title="VPN USA",Telemundo 51 Miami
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ed5aac3691b33a02ac86d84f886a8a06:6b2cf6dd150416b758d228fc38980473
+https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(wscv)/master.mpd
+
+#EXTINF:-1 group-title="VPN USA",Telemundo 52 Los Angeles
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ce7ab3022e753307997f58afe001bac4:72d631a66e635c60829a0fe7705516c1
 https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd
 
-#EXTINF:-1 tvg-id="TELEMUNDO KASA" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4b/KASA-TV_Telemundo_Nuevo_Mexico_logo.png" group-title="VPN USA",TELEMUNDO NUEVO MEXICO
-#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTINF:-1 group-title="VPN USA",Telemundo 60 San Antonio
+#KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0a650504ba2f3f849c290b66a425f2d9:f9809d1b37c6eded90b4f5fbcc7eda26
-#EXTHTTP:{"Origin":"https://portal.app.flow.com.py","Referer":"https://portal.app.flow.com.py/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"}
-https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kasa)/master.mpd
+#KODIPROP:inputstream.adaptive.license_key=739cd40be1473c09ae918d89d2132200:16220f085ba18266a0db6542a9512c70
+https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(KVDA)/master.mpd
 
-#EXTINF:-1 tvg-id="TELEMUNDO DEPORTE AHORA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e2/Telemundo_Deportes_Logo.png" group-title="VPN USA",TELEMUNDO DEPORTE AHORA
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=300b58dfdaf35e8537ce25c39e99aec7:6fc107a6f62f39da27b36ff079d7f937
-#EXTHTTP:{"Origin":"https://portal.app.flow.com.py","Referer":"https://portal.app.flow.com.py/","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"}
-https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(telemundodeportes)/master.mpd
-
-#EXTINF:-1 tvg-id="Universo (West)" tvg-logo="https://i.ibb.co/99KrFvMC/UNIVERSO.png" group-title="VPN USA",UNIVERSO Este
+#EXTINF:-1 group-title="VPN USA",UNIVERSO West
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=069f3495380f3d25a8c03477067f7d1b:7d9dbf8134535e1665e914fb7134ce47
 https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(universo-west)/master.mpd
 
-#EXTINF:-1 tvg-id="Universo (East)" tvg-logo="https://i.ibb.co/99KrFvMC/UNIVERSO.png" group-title="VPN USA",UNIVERSO Oeste
+#EXTINF:-1 group-title="VPN USA",UNIVERSO East
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=96b67fa09140329a89b7a1ead134eda3:c618d32c56cdc6cad8330eb98507ca3f
 https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(universo-east)/master.mpd
 
-#EXTINF:-1 tvg-id="Premier League" tvg-logo="https://download.logo.wine/logo/Premier_League/Premier_League-Logo.wine.png" group-title="VPN USA",Premier League
+#EXTINF:-1 group-title="VPN USA",Premier League
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=002046c9a49b9ab1cdb6616bec5d26c3:d2f92f6b7edc9a1a05d393ba0c20ef9e
 https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc1021n07j)/master.mpd
+
+#EXTINF:-1 group-title="VPN USA",NBC
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0045a118e231f1326bcdb45350b1ceaa:8c13afbfa54ea37a368b8b859021f6e3
+https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(knbc)/master.mpd
+
+#EXTINF:-1 group-title="VPN USA",Team USA
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0020caf877f76b8c7775ffc47f189832:dcab0c4bd6e6982d736c93d737e181da
+https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(lc1140iamg)/master.mpd
