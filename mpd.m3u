@@ -35,40 +35,28 @@ https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/nzl2d4ffbw/
 #KODIPROP:inputstream.adaptive.license_key=da81f7165f73c884fc1dcf0bf3bd4bb5:3f8d519997196db76631dd4b427f53f6
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/hoo4ddqavw/out/v1/dadfb43b8a714e4f9288026b5c3351a0/cenc.mpd
 
-#EXTINF:-1 group-title="PROVIDERS",FOX SPORTS (🇦🇷)
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5017e89955f44ff5b4ddf04e5f5151c6:55136a837a0c8bbcfc7ce65cbd9a547c
-https://ciades.providers.com.ar/FOXSPORTS/index.mpd?token=Sf72kl98hw16kx40vb32qu63ñz61th25
+#EXTINF:-1,Fox Sports HD 🇦🇷
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (CrKey armv7l 1.5.16041) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.0 Safari/537.36
+http://181.209.105.115:2525/play/foxsports/index.m3u8
 
-#EXTINF:-1 group-title="PROVIDERS",FOX SPORTS 2 (🇦🇷)
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=e0e38315c40c4176bab472b349c551ae:d2f1712fc296fee968c7ae0750b2c45b
-https://ciades.providers.com.ar/FOXSPORTS2/index.mpd?token=Sf72kl98hw16kx40vb32qu63ñz61th25
+#EXTINF:-1,Fox Sports 2 HD 🇦🇷
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (CrKey armv7l 1.5.16041) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.0 Safari/537.36
+http://181.209.105.115:2525/play/foxsports2/index.m3u8
 
-#EXTINF:-1 group-title="PROVIDERS",FOX SPORTS 3 (🇦🇷)
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=c72cc2fd2ce34ff78b71765fb85f990d:05fcda26315ffe49f178eca1423831f5
-https://ciades.providers.com.ar/FOXSPORTS3/index.mpd?token=Sf72kl98hw16kx40vb32qu63ñz61th25
+#EXTINF:-1,Fox Sports 3 HD 🇦🇷
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (CrKey armv7l 1.5.16041) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.0 Safari/537.36
+http://181.209.105.115:2525/play/foxsports3/index.m3u8
 
-#EXTINF:-1 group-title="PROVIDERS",ESPN (🇦🇷)
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=22f24724b9ba4b35b43e24c51269f8d7:1b21bee9294b5037a638b7681d57029f
-https://ciades.providers.com.ar/ESPN/index.mpd?token=Sf72kl98hw16kx40vb32qu63ñz61th25
+#EXTINF:-1,Bein Sport Xtra ñ 🇺🇸
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (CrKey armv7l 1.5.16041) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.0 Safari/537.36
+https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
 
-#EXTINF:-1 group-title="PROVIDERS",ESPN PREMIUM (🇦🇷)
+#EXTINF:-1,Bein Sport ñ 🇺🇸
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=00e08f97d3104d8ba550414f41b48761:ed9c6e30925d4efe6c7374b764c67ec4
-https://ciades.providers.com.ar/ESPNPREMIUM/index.mpd?token=Sf72kl98hw16kx40vb32qu63ñz61th25
+#KODIPROP:inputstream.adaptive.license_key=11111111111111118111000000000000:fdee3698ea4f78fb92ff11dbc3d49028
+https://lott2-stb-opus.cdn.avp.telus.net/232006003149/vxfmt=dp/manifest.mpd?device_profile=dashvmx
 
 #EXTINF:-1 group-title="Amazon",FOX SPORTS 🇲🇽
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -198,7 +186,7 @@ https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/n30jfw
 #KODIPROP:inputstream.adaptive.license_key=f3378f29fcdb0c51156b6fce4ecea7b7:01f61c4fec5b2dc7a803f706c0d1897f
 https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/nz5yyu2men/out/v1/06a7c74f616d4f1f829c3c4b7c4b9ea8/cenc.mpd
 
-#EXTINF:-1 group-title="Amazon",NNU9VE 🇲🇽
+#EXTINF:-1 group-title="Amazon",NU9VE 🇲🇽
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
