@@ -5,14 +5,14 @@
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3
-https://live-pv-ta.amazon.fastly-edge.com/gru-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd
+https://live-pv-ta.amazon.fastly-edge.com/gru-nitro/live/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd
 
 #EXTINF:-1 group-title="Amazon",DSPORTS FHD 🇨🇴 (60FPS)
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7d88a44bc0255fdc402a1a7c7151545e:a9968e19c6324e12d285836961421755
-https://live-pv-ta.amazon.fastly-edge.com/gru-nitro/live/clients/dash/enc/ndgbhivgbd/out/v1/39e5ea4eae884fc2bf8def73527add6a/cenc.mpd
+https://live-pv-ta.amazon.fastly-edge.com/gru-nitro/live/dash/enc/ndgbhivgbd/out/v1/39e5ea4eae884fc2bf8def73527add6a/cenc.mpd
 
 #EXTINF:-1 group-title="Amazon",DSPORTS FHD 🇨🇱 (60FPS)
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -184,7 +184,7 @@ https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/n30jfw
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f3378f29fcdb0c51156b6fce4ecea7b7:01f61c4fec5b2dc7a803f706c0d1897f
-https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/nz5yyu2men/out/v1/06a7c74f616d4f1f829c3c4b7c4b9ea8/cenc.mpd
+https://live-pv-ta.amazon.fastly-edge.com/gru-nitro/live/dash/enc/nz5yyu2men/out/v1/06a7c74f616d4f1f829c3c4b7c4b9ea8/cenc.mpd
 
 #EXTINF:-1 group-title="Amazon",NU9VE 🇲🇽
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -198,7 +198,7 @@ https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/skz7pg
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9064725f8bbc48278667ac6370e7f217:1a1d927047b152be8b064382bf91388d
-https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/cp8gfm36ma/out/v1/d8cf81b5dbdd4237ab786b41815a89db/cenc.mpd
+https://live-pv-ta.amazon.fastly-edge.com/gru-nitro/live/dash/enc/cp8gfm36ma/out/v1/d8cf81b5dbdd4237ab786b41815a89db/cenc.mpd
 
 #EXTINF:-1 group-title="Amazon",Azteca UNO 🇲🇽
 #KODIPROP:inputstreamaddon=inputstream.adaptive
