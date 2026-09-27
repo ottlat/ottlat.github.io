@@ -6,13 +6,14 @@
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3
 https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd
+https://live-pv-ta.amazon.fastly-edge.com/gru-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd
 
 #EXTINF:-1 group-title="Amazon",DSPORTS FHD 🇨🇴 (60FPS)
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7d88a44bc0255fdc402a1a7c7151545e:a9968e19c6324e12d285836961421755
-https://qw.live.pv-cdn.net/OTTB/gru-nitro/live/clients/dash/enc/ndgbhivgbd/out/v1/39e5ea4eae884fc2bf8def73527add6a/cenc.mpd
+https://live-pv-ta.amazon.fastly-edge.com/gru-nitro/live/clients/dash/enc/ndgbhivgbd/out/v1/39e5ea4eae884fc2bf8def73527add6a/cenc.mpd
 
 #EXTINF:-1 group-title="Amazon",DSPORTS FHD 🇨🇱 (60FPS)
 #KODIPROP:inputstreamaddon=inputstream.adaptive
